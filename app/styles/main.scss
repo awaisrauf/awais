@@ -9,10 +9,18 @@ $icon-font-path: "/bower_components/sass-bootstrap/fonts/";
     padding: 0.2em 0;
 }
 
+h1.mainTitle{
+    font-weight: bolder;
+    cursor: pointer;
+    font-size: 60px;
+    text-decoration: none;
+}
+
 /* Space out content a bit */
 body {
     padding-top: 20px;
     padding-bottom: 20px;
+    background-image:url('../images/paper.jpg');
 }
 
 /* Everything but the jumbotron gets side spacing for mobile first views */
