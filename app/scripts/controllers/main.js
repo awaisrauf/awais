@@ -24,7 +24,6 @@ angular.module('seba1511githubioApp')
         };
 
         $scope.login = function() {
-            debugger;
             $scope.auth.$login('password', {
                 email: $scope.email,
                 password: $scope.password,
