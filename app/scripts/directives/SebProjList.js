@@ -7,6 +7,7 @@ angular.module('seba1511githubioApp')
             restrict: 'EACM',
             scope: {
                 proj: '=proj',
+                auth: '=auth'
             },
             link: function postLink(scope, element, attrs) {}
         };

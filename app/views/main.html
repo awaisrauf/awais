@@ -25,10 +25,26 @@
   <hr width="80%" />
   <div class="col-md-12">
     <h2 style="font-weight:bolder;">Projects</h2>
-    <p class="col-md-offset-0">Recents and less recents ones</p>
-    <div seb-proj-list proj="projects"></div>
+    <p class="col-md-offset-0">Recents and less recents ones I participated to.</p>
+    <div seb-proj-list proj="projects" auth="auth"></div>
   </div>
   <div class="col-md-12">
-    <p>Add a new project</p>
+    <h4 style="font-weight:bolder;">Add a new project</h4>
+
+    <div ng-hide="auth.user" class="row form-inline">
+      <input type="text" class="form-control" ng-model="email" value="" placeholder="email" />
+      <input type="password" class="form-control" ng-model="password" value="" placeholder="password">
+      <a href="#" class="btn btn-small btn-primary" ng-click="login()">Login</a>
+    </div>
+    <div ng-show="auth.user" class="col-md-12">
+      <a href="#" ng-click="auth.$logout()">Logout</a>
+      <div class="form-inline">
+        <input type="text" class="form-control" ng-model="current.title" placeholder="Title" />
+        <input type="text" class="form-control" ng-model="current.link" placeholder="http://" />
+        <input type="text" class="form-control" ng-model="current.date" placeholder="31/12/2014" />
+      </div>
+      <textarea class="form-control" rows="3" ng-model="current.description"></textarea>
+      <button class="btn btn-primary btn-block" ng-click="projects.$add(current)">Add</button>
+    </div>
   </div>
 </div>
