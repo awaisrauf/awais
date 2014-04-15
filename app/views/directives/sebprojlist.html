@@ -1,0 +1,11 @@
+<div class="col-md-10 col-md-offset-1 row" ng-repeat="p in proj | orderBy:'date':true">
+    <div class="row">
+        <a ng-href="p.link" title="{{p.title}}">
+            <h3 style="font-weight:bolder; display:inline;">{{p.title}}</h3>
+        </a>
+            <h5 style="font-weight:bolder; display:inline;">
+                <small>published the {{p.date | date:'d/M/yyyy'}}</small>
+            </h5>
+    </div>
+    <p class="col-md-12" style="text-align:justify;">{{p.description}}</p>
+</div>
