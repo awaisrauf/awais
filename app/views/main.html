@@ -1,50 +1,23 @@
-<div class="col-md-12">
-  <div class="row col-md-12">
-    <h1 class="mainTitle" style="margin-top:0px;padding-top:0px;">
-      Sébastien Arnold
-      <a href="https://github.com/ZebTech">
-        <img class="pull-right" src="../images/ZebTech_mini.png" height="60" alt="*" />
-      </a>
-    </h1>
+<div class="jumbotron">
+  <h1>'Allo, 'Allo!</h1>
+  <p class="lead">
+    <img src="images/yeoman.png" alt="I'm Yeoman"><br>
+    Always a pleasure scaffolding your apps.
+  </p>
+  <p><a class="btn btn-lg btn-success" ng-href="#">Splendid!<span class="glyphicon glyphicon-ok"></span></a></p>
+</div>
 
-  </div>
-  <div class="row" style="text-align:center;">
-    <a href="http://seba1511.com/CV.pdf">
-      <img src="../images/cv_logo.gif" alt="Télécharger mon CV" height="60">
-    </a>
-    <a href="mailto:seba1511[at]tooski.ch" class="col-md-offset-1">
-      <img height="70" alt="Email" src="../images/mail.png" />
-    </a>
-    <a href="https://github.com/seba-1511" class="col-md-offset-1">
-      <img height="50" alt="GitHub" src="../images/github.png" />
-    </a>
-    <a href="https://plus.google.com/113646921148645696118/posts" class="col-md-offset-1">
-      <img height="50" alt="Google+" src="../images/google+.png" />
-    </a>
-  </div>
-  <hr width="80%" />
-  <div class="col-md-12">
-    <h2 style="font-weight:bolder;">Projects</h2>
-    <p class="col-md-offset-0">Recents and less recents ones I participated to.</p>
-    <div seb-proj-list proj="projects" auth="auth"></div>
-  </div>
-  <div class="col-md-12">
-    <h4 style="font-weight:bolder;">Add a new project</h4>
+<div class="row marketing">
+  <h4>HTML5 Boilerplate</h4>
+  <p>
+    HTML5 Boilerplate is a professional front-end template for building fast, robust, and adaptable web apps or sites.
+  </p>
 
-    <div ng-hide="auth.user" class="row form-inline">
-      <input type="text" class="form-control" ng-model="email" value="" placeholder="email" />
-      <input type="password" class="form-control" ng-model="password" value="" placeholder="password">
-      <a href="#" class="btn btn-small btn-primary" ng-click="login()">Login</a>
-    </div>
-    <div ng-show="auth.user" class="col-md-12">
-      <a href="#" ng-click="auth.$logout()">Logout</a>
-      <div class="form-inline">
-        <input type="text" class="form-control" ng-model="current.title" placeholder="Title" />
-        <input type="text" class="form-control" ng-model="current.link" placeholder="http://" />
-        <input type="text" class="form-control" ng-model="current.date" placeholder="31/12/2014" />
-      </div>
-      <textarea class="form-control" rows="3" ng-model="current.description"></textarea>
-      <button class="btn btn-primary btn-block" ng-click="projects.$add(current)">Add</button>
-    </div>
-  </div>
+  <h4>Angular</h4>
+  <p>
+    AngularJS is a toolset for building the framework most suited to your application development.
+  </p>
+
+  <h4>Karma</h4>
+  <p>Spectacular Test Runner for JavaScript.</p>
 </div>
