@@ -5,6 +5,10 @@
 body {
     background-image: url("../images/paper.jpg");
 }
+
+.header-margin {
+    margin-top: 100px;
+}
 /* GLOBAL STYLES
 -------------------------------------------------- */
 /* Padding below the footer and lighter body text */
