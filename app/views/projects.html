@@ -1,6 +1,7 @@
 <div class="container header-margin">
 
     <h2 class="featurette-heading" style="margin-top:30px;">Artificial Intelligence</h2>
+    <h6 ng-if="ai.length <= 1">No projects have been added yet.</h6>
     <div class="col-md-12">
         <div class="col-md-4" ng-repeat="p in ai | orderBy:'date':true">
             <h2>
@@ -14,6 +15,7 @@
     </div>
 
     <h2 class="featurette-heading" style="margin-top:30px;">Quantum Computing</h2>
+    <h3 ng-if="quantum.length <= 1">No projects have been added yet.</h3>
     <div class="col-md-12">
         <div class="col-md-4" ng-repeat="p in quantum | orderBy:'date':true">
             <h2>
@@ -27,7 +29,8 @@
     </div>
 
     <h2 class="featurette-heading" style="margin-top:30px;">Miscelleanous</h2>
-    <div class="col-md-4" ng-repeat="p in projects | orderBy:'date':true">
+    <h6 ng-if="misc.length <= 1">No projects have been added yet.</h6>
+    <div class="col-md-4" ng-repeat="p in misc | orderBy:'date':true">
         <h2>
             <a ng-href="{{p.link}}" target="_blank">
             {{p.title}}

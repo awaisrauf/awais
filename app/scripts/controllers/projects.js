@@ -18,19 +18,22 @@ angular.module('seba1511githubioApp')
 
         $scope.projects.$on("loaded", function() {
             var indexes = $scope.projects.$getIndex();
+            $scope.quantum = [];
+            $scope.ai = [];
+            $scope.misc = [];
             indexes.map(function(el) {
-                $scope.projects[el].key = el;
+                var proj = $scope.projects[el];
+                proj.key = el;
+                if (proj.quantum) {
+                    $scope.quantum.push();
+                }
+                else if (proj.ai) {
+                    $scope.ai.push(proj);
+                }
+                else {
+                    $scope.misc.push(proj);
+                }
             });
-            $scope.quantum = projects.filter(function(el, idx) {
-                return el.quantum;
-            });
-            $scope.ai = projects.filter(function(el, idx) {
-                return el.ai;
-            });
-            $scope.misc = projects.filter(function(el, idx) {
-                return !el.ai && !el.quantum;
-            });
-
         });
 
         $scope.current = {
