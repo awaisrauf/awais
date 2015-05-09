@@ -6,6 +6,13 @@ body {
     background-image: url("../images/paper.jpg");
 }
 
+html,
+body {
+    height: 100%;
+    font-family: 'Roboto', sans-serif;
+    /*color: #444;*/
+}
+
 .header-margin {
     margin-top: 100px;
 }

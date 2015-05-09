@@ -1,1 +1,6 @@
-<p>This is the blog view.</p>
+<div class="container header-margin">
+    <div class="col-md-10 col-md-offset-1" ng-repeat="b in blogs | orderBy:'date':true">
+        <h2>{{b.title}} <small class="muted">{{b.date | date}}</small></h2>
+        <p style="text-align:justify;" ng-bind-html="b.content"></p>
+    </div>
+</div>
