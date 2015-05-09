@@ -8,7 +8,8 @@
  * Controller of the seba1511githubioApp
  */
 angular.module('seba1511githubioApp')
-    .controller('ProjectsCtrl', function($scope, $firebase, $firebaseSimpleLogin) {
+    .controller('ProjectsCtrl', function($scope, $firebase,
+        $firebaseSimpleLogin) {
         var projectsRef = new Firebase(
             "https://blazing-fire-2321.firebaseio.com/projects");
 
@@ -20,6 +21,16 @@ angular.module('seba1511githubioApp')
             indexes.map(function(el) {
                 $scope.projects[el].key = el;
             });
+            $scope.quantum = projects.filter(function(el, idx) {
+                return el.quantum;
+            });
+            $scope.ai = projects.filter(function(el, idx) {
+                return el.ai;
+            });
+            $scope.misc = projects.filter(function(el, idx) {
+                return !el.ai && !el.quantum;
+            });
+
         });
 
         $scope.current = {

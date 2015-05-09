@@ -2,7 +2,7 @@
 
     <h2 class="featurette-heading" style="margin-top:30px;">Artificial Intelligence</h2>
     <div class="col-md-12">
-        <div class="col-md-4" ng-repeat="p in projects | orderBy:'date':true">
+        <div class="col-md-4" ng-repeat="p in ai | orderBy:'date':true">
             <h2>
             <a ng-href="{{p.link}}" target="_blank">
             {{p.title}}
@@ -15,7 +15,7 @@
 
     <h2 class="featurette-heading" style="margin-top:30px;">Quantum Computing</h2>
     <div class="col-md-12">
-        <div class="col-md-4" ng-repeat="p in projects | orderBy:'date':true">
+        <div class="col-md-4" ng-repeat="p in quantum | orderBy:'date':true">
             <h2>
             <a ng-href="{{p.link}}" target="_blank">
             {{p.title}}
