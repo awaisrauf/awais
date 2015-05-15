@@ -17,9 +17,9 @@ angular.module('seba1511githubioApp')
         $scope.auth = $firebaseSimpleLogin(projectsRef);
 
         $scope.blogs.$on("loaded", function() {
-            var indexes = $scope.projects.$getIndex();
+            var indexes = $scope.blogs.$getIndex();
             indexes.map(function(el) {
-                var proj = $scope.projects[el];
+                var proj = $scope.blogs[el];
                 proj.key = el;
             });
         });

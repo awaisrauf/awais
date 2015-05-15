@@ -22,6 +22,22 @@ angular.module('seba1511githubioApp')
         $scope.auth = $firebaseSimpleLogin(firebaseRef);
         $scope.loggedIn = true;
 
+        $scope.blogs.$on("loaded", function() {
+            var indexes = $scope.blogs.$getIndex();
+            indexes.map(function(el) {
+                var proj = $scope.blogs[el];
+                proj.key = el;
+            });
+        });
+
+        $scope.projects.$on("loaded", function() {
+            var indexes = $scope.projects.$getIndex();
+            indexes.map(function(el) {
+                var proj = $scope.projects[el];
+                proj.key = el;
+            });
+        });
+
         $scope.currentProject = {
             title: '',
             date: new Date()
