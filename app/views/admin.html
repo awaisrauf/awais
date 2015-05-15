@@ -23,23 +23,23 @@
                     placeholder="Date" />
                 </div>
                 <div class="col-md-3">
-                    <input class="form-control" type="text" name="link" id="link" ng-model="currentProject.link"
-                    placeholder="http://" />
+                    <input class="form-control" type="text" name="link" id="link" ng-model="currentProject.link" placeholder="http://" />
                 </div>
                 <div class="col-md-3 row">
                     <div class="checkbox">
                         <label>
-                            <input type="checkbox" ng-model="currentProject.ai"> AI
+                            <input type="checkbox"  ng-checked="currentProject.ai" ng-model="currentProject.ai"> AI
                         </label>
                     </div>
                     <div class="checkbox">
                         <label>
-                            <input type="checkbox" ng-model="currentProject.quantum" />Quantum
+                            <input type="checkbox" ng-checked="currentProject.quantum" ng-model="currentProject.quantum" />Quantum
                         </label>
                     </div>
                 </div>
             </div>
             <textarea class="form-control" name="content" id="content" rows="8" cols="40" ng-model="currentProject.description"></textarea>
+    <p class="bg-danger text-center" style="color:white;" >Once you create, don't forget to refresh the page.</p>
             <button class="btn btn-md btn-success pull-right" ng-click="projects.$add(currentProject);">Create</button>
         </div>
         <div class="col-md-12">
@@ -57,6 +57,7 @@
             <input class="form-control" type="text" name="summary" id="summary" ng-model="currentBlog.summary"
             placeholder="Summary" />
             <textarea class="form-control" name="content" id="content" rows="8" cols="40" ng-model="currentBlog.content"></textarea>
+    <p class="bg-danger text-center" style="color:white;" >Once you create, don't forget to refresh the page.</p>
             <button class="btn btn-md btn-success pull-right" ng-click="blogs.$add(currentBlog);">Create</button>
         </div>
 
@@ -73,7 +74,7 @@
                         <tr ng-repeat="p in projects | orderByPriority | orderBy:'date':true">
                             <td>{{p.title}}</td>
                             <td>
-                                <button class="btn btn-primary btn-sm" ng-click="currentProject = p">Modifiy</button>
+                                <button class="btn btn-primary btn-sm" ng-click="assignProj(p);">Modifiy</button>
                                 <button class="btn btn-danger btn-sm" ng-click="projects.$remove(p.key);">Delete</button>
                             </td>
                         </tr>
@@ -91,7 +92,7 @@
                         <tr ng-repeat="p in blogs | orderByPriority | orderBy:'date':true">
                             <td>{{p.title}}</td>
                             <td>
-                                <button class="btn btn-primary btn-sm" ng-click="currentBlog = p">Modifiy</button>
+                                <button class="btn btn-primary btn-sm" ng-click="assignBlog(p);">Modifiy</button>
                                 <button class="btn btn-danger btn-sm" ng-click="blogs.$remove(p.key);">Delete</button>
                             </td>
                         </tr>

@@ -25,7 +25,7 @@ angular.module('seba1511githubioApp')
                 var proj = $scope.projects[el];
                 proj.key = el;
                 if (proj.quantum) {
-                    $scope.quantum.push();
+                    $scope.quantum.push(proj);
                 }
                 else if (proj.ai) {
                     $scope.ai.push(proj);

@@ -28,6 +28,16 @@ angular.module('seba1511githubioApp')
                 var proj = $scope.blogs[el];
                 proj.key = el;
             });
+            $scope.currentBlog = {
+                title: '',
+                date: new Date()
+                    .getTime(),
+                content: '',
+                summary: '',
+                key: $scope.blogs.length,
+            };
+
+
         });
 
         $scope.projects.$on("loaded", function() {
@@ -36,23 +46,37 @@ angular.module('seba1511githubioApp')
                 var proj = $scope.projects[el];
                 proj.key = el;
             });
+            $scope.currentProject = {
+                title: '',
+                date: new Date()
+                    .getTime(),
+                link: '',
+                description: '',
+                ai: false,
+                quantum: false,
+                key: $scope.projects.length,
+            };
+
         });
 
-        $scope.currentProject = {
-            title: '',
-            date: new Date()
-                .getTime(),
-            link: '',
-            description: '',
-            ai: false,
-            quantum: false,
+        $scope.assignProj = function(p) {
+            $scope.currentProject = {
+                title: p.title,
+                date: p.date,
+                link: p.link,
+                description: p.description,
+                ai:p.ai,
+                quantum: p.quantum,
+            };
         };
-        $scope.currentBlog = {
-            title: '',
-            date: new Date()
-                .getTime(),
-            content: '',
-            summary: '',
+
+        $scope.assignBlog = function(b) {
+            $scope.currentBlog = {
+                title: b.title,
+                date: b.date,
+                content: b.content,
+                summary: b.summary,
+            };
         };
 
         $scope.login = function() {
