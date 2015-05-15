@@ -38,6 +38,10 @@ angular
         templateUrl: 'views/projects.html',
         controller: 'ProjectsCtrl'
       })
+      .when('/admin', {
+        templateUrl: 'views/admin.html',
+        controller: 'AdminCtrl'
+      })
       .otherwise({
         redirectTo: '/'
       });
