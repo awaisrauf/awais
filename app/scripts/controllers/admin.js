@@ -20,7 +20,7 @@ angular.module('seba1511githubioApp')
         $scope.projects = $firebase(projectsRef);
         $scope.blogs = $firebase(blogsRef);
         $scope.auth = $firebaseSimpleLogin(firebaseRef);
-        $scope.loggedIn = true;
+        $scope.loggedIn = false;
 
         $scope.blogs.$on("loaded", function() {
             var indexes = $scope.blogs.$getIndex();
