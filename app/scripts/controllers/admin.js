@@ -8,10 +8,47 @@
  * Controller of the seba1511githubioApp
  */
 angular.module('seba1511githubioApp')
-  .controller('AdminCtrl', function ($scope) {
-    $scope.awesomeThings = [
-      'HTML5 Boilerplate',
-      'AngularJS',
-      'Karma'
-    ];
-  });
+    .controller('AdminCtrl', function($scope, $firebase, $firebaseSimpleLogin) {
+        var projectsRef =
+            new Firebase(
+                'https://blazing-fire-2321.firebaseio.com/projects'),
+            blogsRef = new Firebase(
+                'https://blazing-fire-2321.firebaseio.com/blogs'),
+            firebaseRef = new Firebase(
+                'https://blazing-fire-2321.firebaseio.com/');
+
+        $scope.projects = $firebase(projectsRef);
+        $scope.blogs = $firebase(blogsRef);
+        $scope.auth = $firebaseSimpleLogin(firebaseRef);
+        $scope.loggedIn = true;
+
+        $scope.currentProject = {
+            title: '',
+            date: new Date()
+                .getTime(),
+            link: '',
+            description: '',
+            ai: false,
+            quantum: false,
+        };
+        $scope.currentBlog = {
+            title: '',
+            date: new Date()
+                .getTime(),
+            content: '',
+            summary: '',
+        };
+
+        $scope.login = function() {
+            $scope.auth.$login('password', {
+                    email: $scope.email,
+                    password: $scope.password,
+                    rememberMe: true
+                })
+                .then(function(user) {
+                    $scope.loggedIn = true;
+                }, function(error) {
+                    alert('Login failed: ' + error);
+                });
+        }
+    });

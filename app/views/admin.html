@@ -1,1 +1,90 @@
-<p>This is the admin view.</p>
+<div class="header-margin container">
+    <div class="col-md-12" ng-show="!loggedIn">
+        <div class="col-md-4 col-md-offset-4">
+            <input class="form-control" type="text" name="email" id="email" value="" ng-model="email"
+            placeholder="Email" />
+            <br />
+            <input class="form-control" type="password" name="password" id="password" value=""
+            ng-model="password" placeholder="Password" />
+            <br />
+            <button ng-click="login()" class="btn btn-medium btn-success">Log In</button>
+        </div>
+    </div>
+    <div class="col-md-12" ng-show="loggedIn">
+        <div class="col-md-12">
+            <h3>Projects</h3>
+            <div class="row">
+                <div class="col-md-3">
+                    <input class="form-control col-md-3" type="text" name="title" id="title" ng-model="currentProject.title"
+                    placeholder="Title" />
+                </div>
+                <div class="col-md-3">
+                    <input class="form-control col-md-3" type="text" name="date" id="date" ng-model="currentProject.date"
+                    placeholder="Date" />
+                </div>
+                <div class="col-md-3">
+                    <input class="form-control" type="text" name="link" id="link" ng-model="currentProject.link"
+                    placeholder="http://" />
+                </div>
+                <div class="col-md-3 row">
+                    <div class="checkbox">
+                        <label>
+                            <input type="checkbox" ng-model="currentProject.ai"> AI
+                        </label>
+                    </div>
+                    <div class="checkbox" ng-model="currentProject.quantum">
+                        <label>
+                            <input type="checkbox">Quantum
+                        </label>
+                    </div>
+                </div>
+            </div>
+            <textarea class="form-control" name="content" id="content" rows="8" cols="40" ng-model="currentProject.description"></textarea>
+            <button class="btn btn-md btn-success pull-right" ng-click="projects.$add(currentProject);">Create</button>
+        </div>
+        <div class="col-md-12">
+            <h3>Blogs</h3>
+            <div class="row">
+                <div class="col-md-3">
+                    <input class="form-control col-md-3" type="text" name="title" id="title" ng-model="currentBlog.title"
+                    placeholder="Title" />
+                </div>
+                <div class="col-md-3">
+                    <input class="form-control col-md-3" type="text" name="date" id="date" ng-model="currentBlog.date"
+                    placeholder="Date" />
+                </div>
+            </div>
+            <input class="form-control" type="text" name="summary" id="summary" ng-model="currentBlog.summary"
+            placeholder="Summary" />
+            <textarea class="form-control" name="content" id="content" rows="8" cols="40" ng-model="currentBlog.content"></textarea>
+            <button class="btn btn-md btn-success pull-right" ng-click="blogs.$add(currentBlog);">Create</button>
+        </div>
+
+        <div class="col-md-12">
+            <h3>Published</h3>
+            <div class="col-md-6">
+                <h4>Projects</h4>
+                <table class="table table-condensed">
+                    <thead>
+                        <th>Date</th>
+                        <th>Title</th>
+                        <th>Action</th>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td></td>
+                            <td></td>
+                            <td>
+                                <button class="btn btn-primary btn-sm" ng-click="">Modifiy</button>
+                                <button class="btn btn-danger btn-sm" ng-click="">Delete</button>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="col-md-6">
+                <h4>Blogs</h4>
+            </div>
+        </div>
+    </div>
+</div>
