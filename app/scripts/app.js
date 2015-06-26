@@ -19,6 +19,7 @@ angular
     'ngSanitize',
     'ngTouch',
     'firebase',
+    'hc.marked',
   ])
   .config(function ($routeProvider) {
     $routeProvider
