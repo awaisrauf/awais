@@ -16,6 +16,14 @@ German-based instruction, advanced class in
 parallel and distributed computing, machine learning project with Yuxin Chen, PhD
 student of Prof. Andreas Krause.
 
+## Stanford University \hfill{June 2011 - August 2011}
+### High-School Summer Semester
+Opportunity for high-school students to take undergraduate classes.
+
+## Gymnase Auguste-Piccard \hfill{August 2008 - August 2011}
+### Maturité Fédérale
+High-school degree, with an emphasis on Mathematics and Physics.
+
 
 \hfill{}
 \hfill{}
@@ -61,6 +69,10 @@ leader in a team of 4.
 ### Founder
 Development of the leading French-speaking skiing website, and its magazine
 Angulation.
+
+
+\hfill{}
+\hfill{}
 
 
 
