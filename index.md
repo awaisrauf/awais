@@ -7,16 +7,14 @@
 <div class="container header-margin">
 <div class="col-md-10 col-md-offset-0 row" style="margin-top:10px;">
 <div class="col-md-7" style="text-align:justify;margin-top:25px;font-size:12pt;">
-<!--<h2><b>Séb Arnold</b></h2>-->
-I am an undergraduate student at the <a href="http://www.usc.edu"
-target="_blank">University of Southern California</a>, double
-majoring in Computer Science and Math. My research interests lie in [artificial intelligence](http://valerolab.org/), distributed systems, and [mathematical optimization](http://dornsife.usc.edu/labs/msl/).
 
-I also like skiing (<a
-href="http://www.tooski.ch" target="_blank">a lot</a>).
+I am an undergraduate student at the [University of Southern California](http://www.usc.edu), double majoring in Computer Science and Math. My research interests lie in [artificial intelligence](http://valerolab.org/), distributed systems, and [mathematical optimization](http://dornsife.usc.edu/labs/msl/).
 
-<p>Contact: arnolds [at] usc [dot] edu</p>
-[Resume](./resume.pdf)
+I also like skiing ([a lot](http://www.tooski.ch)).
+
+[[Contact](mailto:arnolds [at] usc [dot] edu), [Resume](./resume.pdf)]
+
+
 </div>
 <div class="col-md-5" style="text-align:center;">
 <img src="./images/seb.png" style="max-width:250px;height:auto;margin:auto;" alt="Me and motorcycle hair" />
@@ -25,17 +23,27 @@ href="http://www.tooski.ch" target="_blank">a lot</a>).
 </div>
 </div>
 
-# News
 
-#### A new website
-I just updated my website. This is a test news.
+<br />
+<br />
+<br />
+
+<!--# News-->
+
+<!--#### A new website-->
+<!--I just updated my website. This is a test news.-->
+
+
+<!--<br />-->
+<!--<br />-->
+<!--<br />-->
 
 # Projects
 <!--<br />-->
 <!--<a ng-href="http://seba-1511.github.io/config/" target="_blank" class="btn btn-primary btn-xs">Know More</a>-->
 
 ### Summaries
-A list of summaries I made through my studies.[[Homepage](http://seba-1511.github.io/summaries/)]
+A list of summaries I made through my studies. [[Homepage](http://seba-1511.github.io/summaries/)]
 
 ### Paperify.py
 A tool to convert markdown files into beautiful LaTeX docs and web pages. A work in progress. [[Web Demo](http://seba-1511.github.io/config/), [PDF Examples](https://github.com/seba-1511/config/tree/master/tex_templates/examples)]

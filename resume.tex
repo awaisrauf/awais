@@ -1,0 +1,33 @@
+\documentclass[11pt, french]{article}
+
+% Variables Definition
+\newif\iftwocolsformat
+\twocolsformattrue
+\newif\iftwolinetitle
+\twolinetitlefalse
+\newif\ifsansfont
+\sansfontfalse
+
+\author{$author$}
+\title{$title$}
+\date{$date$}
+
+\usepackage[document]{ragged2e}
+\usepackage{titlesec}
+
+\input{\string~/tex_templates/core}
+
+\setcounter{secnumdepth}{0}
+
+\begin{document}
+\thispagestyle{empty}
+
+\maketitle
+
+\begin{justify}
+
+$body$
+
+\end{justify}
+
+\end{document}
