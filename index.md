@@ -33,6 +33,9 @@ I also like skiing ([a lot](http://www.tooski.ch)).
 #### SoCal ML Symposium submission
 Our paper on comparing TRPO with CEM was accepted as a poster presentation. Congratulations to Elizabeth Chu !
 
+#### Summaries
+I recently published some of the summaries I made through my studies. All of them written with paperify.py. Work in progress. [[Available here](http://seba-1511.github.io/summaries/)].
+
 
 <br />
 <br />
@@ -41,9 +44,6 @@ Our paper on comparing TRPO with CEM was accepted as a poster presentation. Cong
 # Projects
 <!--<br />-->
 <!--<a ng-href="http://seba-1511.github.io/config/" target="_blank" class="btn btn-primary btn-xs">Know More</a>-->
-
-### Summaries
-A list of summaries I made through my studies. [[Homepage](http://seba-1511.github.io/summaries/)]
 
 ### Paperify.py
 A tool to convert markdown files into beautiful LaTeX docs and web pages. A work in progress. [[Web Demo](http://seba-1511.github.io/config/), [PDF Examples](https://github.com/seba-1511/config/tree/master/tex_templates/examples)]
