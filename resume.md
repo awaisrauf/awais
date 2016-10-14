@@ -67,12 +67,16 @@ Angulation.
 # Writings
 
 #### A Greedy Algorithm to Cluster Specialists
-Sébastien Arnold, 2016, *Arxiv Preprint*
+*S. Arnold*, Technical Report, 2016, *Arxiv Preprint*
+
+#### Comparing Efficiency of TRPO and CEM
+*S. Arnold & E. Chu*, Poster Presentation, 2016, *SoCal ML Symposium*
 
 # Awards
 
 * **David Wiesen Scholarship**: 2016
 * **USC Summer Undergraduate Research Fellowship**: 2016
+* **Microsoft Tuition Scholarship**: Finalist, 2016
 * **USC Academic Achievement Award**: 2015, 2016
 * **USC Provost Research Fellowship**: 2015, 2016
 * **USC Dean's List**: 2014, 2015, 2016

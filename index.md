@@ -12,7 +12,7 @@ I am an undergraduate student at the [University of Southern California](http://
 
 I also like skiing ([a lot](http://www.tooski.ch)).
 
-[[Contact](mailto:arnolds [at] usc [dot] edu), [Resume](./resume.pdf)]
+[[Contact](mailto:arnolds@usc.edu), [Resume](./resume.pdf)]
 
 
 </div>
@@ -28,15 +28,15 @@ I also like skiing ([a lot](http://www.tooski.ch)).
 <br />
 <br />
 
-<!--# News-->
+# News
 
-<!--#### A new website-->
-<!--I just updated my website. This is a test news.-->
+#### SoCal ML Symposium submission
+Our paper on comparing TRPO with CEM was accepted as a poster presentation. Congratulations to Elizabeth Chu !
 
 
-<!--<br />-->
-<!--<br />-->
-<!--<br />-->
+<br />
+<br />
+<br />
 
 # Projects
 <!--<br />-->
