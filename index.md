@@ -33,8 +33,8 @@ I also like skiing ([a lot](http://www.tooski.ch)).
 #### SoCal ML Symposium submission
 Our paper on comparing TRPO with CEM was accepted as a poster presentation. Congratulations to Elizabeth Chu !
 
-#### Summaries
-I recently published some of the summaries I made through my studies. All of them written with paperify.py. Work in progress. [[Available here](http://seba-1511.github.io/summaries/)].
+<!--#### Summaries-->
+<!--I recently published some of the summaries I made through my studies. All of them written with paperify.py. Work in progress. [[Available here](http://seba-1511.github.io/summaries/)].-->
 
 
 <br />
@@ -64,7 +64,7 @@ Compare machine learning algorithms on the same dataset, with only one line. It 
 A web-based social experiment to evaluate the meritocracy of people. [[GitHub Repo](https://github.com/seba-1511/meritocracy)]
 
 ### Generatic Experiment
-Making neural networks and standard machine learning algorithms learn from artificially generated images. Images are generated with a genetic algorithm, out of a convolutional neural network. [[GitHub Repo](http://github.com/ZebTech/geneticExperiment)]
+Uses a genetic algorithm to generate images out of a trained convnet. Also, try algorithm to learn from the generated images. [[GitHub Repo](http://github.com/ZebTech/geneticExperiment)]
 
 ### Tea Stock Market
 Predict the fluctuations of Indian Tea Companies' stock market, based on weather data. A lot of machine learning, some financial analysis. [[GitHub Repo](https://github.com/seba-1511/stockMarket)]
