@@ -30,12 +30,13 @@ I also like skiing ([a lot](http://www.tooski.ch)).
 
 # News
 
+#### Open-Sourcing randopt
+I open-sourced [randopt](https://seba-1511.github.io/randopt/), a [python package](https://pypi.python.org/pypi/randopt) to streamline the search for good hyper-parameters. An effort to be [continued](https://github.com/seba-1511/randopt). 
+
+<br />
+
 #### SoCal ML Symposium submission
-Our paper on comparing TRPO with CEM was accepted as a poster presentation. Congratulations to Elizabeth Chu !
-
-<!--#### Summaries-->
-<!--I recently published some of the summaries I made through my studies. All of them written with paperify.py. Work in progress. [[Available here](http://seba-1511.github.io/summaries/)].-->
-
+Our paper on comparing TRPO against CEM was accepted as a poster presentation at [SCMLS](http://dolcit.cms.caltech.edu/scmls/). Congratulations to my co-authors !
 
 <br />
 <br />
