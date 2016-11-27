@@ -28,6 +28,13 @@ I also like skiing ([a lot](http://www.tooski.ch)).
 <br />
 <br />
 
+# PhD Application
+I am currently applying for graduate school ! To learn more about my undergraduate research and work experience, please follow [this link](./phd.html).
+
+<br />
+<br />
+
+
 # News
 
 #### Open-Sourcing randopt
@@ -43,8 +50,9 @@ Our paper on comparing TRPO against CEM was accepted as a poster presentation at
 <br />
 
 # Projects
-<!--<br />-->
-<!--<a ng-href="http://seba-1511.github.io/config/" target="_blank" class="btn btn-primary btn-xs">Know More</a>-->
+
+### randopt
+Randopt is a python package to streamline the search for good hyper-parameters. It provides a programmatic interface to serialize, choose, and visualize hyper-parameters and results. [[GitHub Repo](https://github.com/seba-1511/randopt), [Blog Post](https://seba-1511.github.io/randopt/)] 
 
 ### Paperify.py
 A tool to convert markdown files into beautiful LaTeX docs and web pages. A work in progress. [[Web Demo](http://seba-1511.github.io/config/), [PDF Examples](https://github.com/seba-1511/config/tree/master/tex_templates/examples)]
@@ -65,7 +73,7 @@ Compare machine learning algorithms on the same dataset, with only one line. It 
 A web-based social experiment to evaluate the meritocracy of people. [[GitHub Repo](https://github.com/seba-1511/meritocracy)]
 
 ### Generatic Experiment
-Uses a genetic algorithm to generate images out of a trained convnet. Also, try algorithm to learn from the generated images. [[GitHub Repo](http://github.com/ZebTech/geneticExperiment)]
+Uses a genetic algorithm to generate images out of a trained convnet. Also, tries to learn from the generated images only. [[GitHub Repo](http://github.com/ZebTech/geneticExperiment)]
 
 ### Tea Stock Market
 Predict the fluctuations of Indian Tea Companies' stock market, based on weather data. A lot of machine learning, some financial analysis. [[GitHub Repo](https://github.com/seba-1511/stockMarket)]

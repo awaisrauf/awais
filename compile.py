@@ -23,3 +23,6 @@ if __name__ == '__main__':
               cwd + '/resume.tex',
             ]
     call(resume)
+
+    phd = ['paperify.py', 'phd.md', 'web']
+    call(phd)
