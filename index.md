@@ -28,11 +28,11 @@ I also like skiing ([a lot](http://www.tooski.ch)).
 <br />
 <br />
 
-# PhD Application
-I am currently applying for graduate school ! To learn more about my undergraduate research and work experience, please follow [this link](./phd.html).
+<!--# PhD Application-->
+<!--I am currently applying for graduate school ! To learn more about my undergraduate research and work experience, please follow [this link](./phd.html).-->
 
-<br />
-<br />
+<!--<br />-->
+<!--<br />-->
 
 
 # News

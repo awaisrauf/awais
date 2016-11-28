@@ -9,6 +9,18 @@ I am currently applying to PhD programs that start in Autumn of 2017. This docum
 # Timeline
 <iframe src='https://cdn.knightlab.com/libs/timeline3/latest/embed/index.html?source=1wHvwpC-LW7OcPFPNBU4eQpHBwxrxlMveI5yqOcbCEEo&font=OpenSans-GentiumBook&lang=en&initial_zoom=2&height=650' width='100%' height='650' frameborder='0'></iframe>
 
+# Very Recent Works
+
+### Randopt
+
+### MuJoCo Environments
+
+### Introduction to Distributed Deep Learning
+
+### Specialist Paper
+
+### Quantum Optimization Code
+
 # Research Experience
 
 During my 3 years at USC, I was fortunate to work in a couple of research groups and under the supervision of several inspiring researchers. I will hopefully be able to include all of our results in my future bachelor thesis.
@@ -34,11 +46,11 @@ My main takeaway from our project with Dr. Hen is that every problem can be phra
 Although the field of distributed optimization has existed for a long time, the loss surface of deep neural networks is poorly understood and a very active research topic. Experts tend to agree that in very high-dimensions, the number of local minimas decreases exponentially and for neural-networks those local minimas are "not that bad". [@dauphin; @losssurface] Our approach is to gather as much information about the Hessian of the loss function as we can, by taking advantage of the asynchrony in the distributed setting. I am responsible for designing and implementing the experiments, while the theory - and mathematical rigorousity - is developed in our meetings with Prof. Wang.
 
 ## Brain Body Dynamics Lab
-With an expanding understanding of the theory of optimization of neural networks and efficient distributed implementations, I was looking for an interesting project where I could apply those new skills. As a matter of fact, I believe the best researchers are able to produce both solid theoretical results - to impress their peers - as well as impressive applications - to impress their grandmothers. \newline
+With an expanding understanding of the theory of optimization of neural networks and efficient distributed implementations, I was looking for an interesting project where I could apply those new skills. As a matter of fact, I believe the best researchers are able to produce both solid theoretical results - to impress their peers - as well as futuristic applications - to impress their grandmothers. \newline
 
 ![A simulated tendon-driven finger.](phd_figs/finger_screenshots.png)
 
-In the early summer of 2016, I was given a chance to tour Prof. Francisco Valero-Cuevas' lab. In particular I connected with Brian Cohn, and we started looking for opportunities to apply distributed deep reinforcement learning to problems related to optimal control. By the end of July, we decided to explore transfer learning from a simulation, to a robotic, and finally to a human finger. The goal is to use the neural network as a controller so that by the end of the training procedure it is able to control a cadaveric finger activated by its tendons. Our current strategy is to mix TRPO @trpo with progressive neural networks @pnn, using ideas from probabilistic differential dynamic programming @pddp. My task is to develop the mathematical and experimental framework behind the experiments, and our early results @trpocem with Prof. Valero-Cuevas have been accepted as a poster paper at the SoCal Machine Learning Symposium. For those experiments, I developed the fastest implementation of TRPO, and distributed it over GPUs. I am also designing custom environments for transfer learning in reinforcement setups, as well as a convenient random search library.
+In the early summer of 2016, I was given a chance to tour Prof. Francisco Valero-Cuevas' lab. In particular I connected with Brian Cohn, and we started looking for opportunities to apply distributed deep reinforcement learning to problems related to optimal control. By the end of July, we decided to explore transfer learning from a simulation, to a robotic, and finally to a human finger. The goal is to use the neural network as a controller so that by the end of the training procedure it is able to control a cadaveric finger activated by its tendons. Our current strategy is to mix TRPO @trpo with progressive neural networks @pnn, using ideas from probabilistic differential dynamic programming @pddp. My task is to develop the mathematical and experimental framework behind the experiments, and our early results @trpocem with Prof. Valero-Cuevas have been accepted as a poster paper at the SoCal Machine Learning Symposium. For those experiments, I developed the fastest implementation of TRPO, and distributed it over GPUs. I am also designing custom environments for transfer learning in reinforcement setups, as well as a convenient [random search](http://seba-1511.github.io/randopt) library.
 
 # Nervana Internship
 During the summer of 2015, Nervana Systems asked me if I would be interested in joining their team as an intern for the fall semester. This request came after several of my contributions being merged in their framework. From August 2015 to August 2016, I was thus interning with them remote and part-time. This would not have been possible without the help of Dr. Michael Shindler who supervised me throughout the internship. \newline
