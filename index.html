@@ -19,7 +19,7 @@
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.6.0/katex.min.css">
 
         <!--Pseudocode.js-->
-        <link rel="stylesheet" href="https://cdn.rawgit.com/tatetian/pseudocode.js/master/static/pseudocode.css">
+        <link rel="stylesheet" href="https://cdn.rawgit.com/seba-1511/cdn/master/pseudocode.js/pseudocode.min.css">
 
 
         <style type="text/css" media="all">
@@ -159,11 +159,11 @@
             <!--<br />-->
             <!--<br />-->
             <h1 id="news">News</h1>
+            <h4 id="open-sourcing-mj_transfer">Open-Sourcing mj_transfer</h4>
+            <p>We open-sourced some <a href="http://mujoco.org/">MuJoCo</a> environments for robotic transfer learning on OpenAI Gym. [<a href="https://github.com/seba-1511/mj_transfer">GitHub Repo</a>, <a href="http://seba-1511.github.io/mj_transfer">Website</a>]</p>
+            <p><br /></p>
             <h4 id="open-sourcing-randopt">Open-Sourcing randopt</h4>
             <p>I open-sourced <a href="https://seba-1511.github.io/randopt/">randopt</a>, a <a href="https://pypi.python.org/pypi/randopt">python package</a> to streamline the search for good hyper-parameters. An effort to be <a href="https://github.com/seba-1511/randopt">continued</a>.</p>
-            <p><br /></p>
-            <h4 id="socal-ml-symposium-submission">SoCal ML Symposium submission</h4>
-            <p>Our paper on comparing TRPO against CEM was accepted as a poster presentation at <a href="http://dolcit.cms.caltech.edu/scmls/">SCMLS</a>. Congratulations to my co-authors !</p>
             <p><br /> <br /> <br /></p>
             <h1 id="projects">Projects</h1>
             <h3 id="randopt">randopt</h3>
@@ -216,7 +216,8 @@
         <!--<script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.6.0/contrib/auto-render.min.js"></script>-->
 
         <!--Pseudocode.js-->
-        <script src="http://www.tatetian.io/pseudocode.js/pseudocode/pseudocode.min.js"></script>
+        <script src="https://cdn.rawgit.com/seba-1511/cdn/master/pseudocode.js/pseudocode.min.js"></script>
+        <!--<script src="https://rawgit.com/seba-1511/cdn/master/pseudocode.js/pseudocode.min.js"></script>-->
 
         <!--Custom scripting-->
         <script type="text/javascript">
@@ -251,6 +252,7 @@
                 lineNumberPunc: ':',
                 noEnd: true,
                 captionCount: 1,
+                throwOnError: false,
             };
             for (i=0; i < pseudocodeElems.length; i++) {
                 content = pseudocodeElems[i].textContent;

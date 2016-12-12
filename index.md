@@ -37,13 +37,14 @@ I also like skiing ([a lot](http://www.tooski.ch)).
 
 # News
 
-#### Open-Sourcing randopt
-I open-sourced [randopt](https://seba-1511.github.io/randopt/), a [python package](https://pypi.python.org/pypi/randopt) to streamline the search for good hyper-parameters. An effort to be [continued](https://github.com/seba-1511/randopt). 
+#### Open-Sourcing mj_transfer
+We open-sourced some [MuJoCo](http://mujoco.org/) environments for robotic transfer learning on OpenAI Gym. [[GitHub Repo](https://github.com/seba-1511/mj_transfer), [Website](http://seba-1511.github.io/mj_transfer)] 
 
 <br />
 
-#### SoCal ML Symposium submission
-Our paper on comparing TRPO against CEM was accepted as a poster presentation at [SCMLS](http://dolcit.cms.caltech.edu/scmls/). Congratulations to my co-authors !
+
+#### Open-Sourcing randopt
+I open-sourced [randopt](https://seba-1511.github.io/randopt/), a [python package](https://pypi.python.org/pypi/randopt) to streamline the search for good hyper-parameters. An effort to be [continued](https://github.com/seba-1511/randopt). 
 
 <br />
 <br />
