@@ -49,7 +49,6 @@ Development of sociological experiments with JavaScript and PHP. Project receive
 appraisal from the European Commission and fundings for coming years.
 
 
-
 \hfill{}
 \hfill{}
 
@@ -81,8 +80,8 @@ Angulation.
 #### A Greedy Algorithm to Cluster Specialists
 *S. Arnold*, Technical Report, 2016, *Arxiv Preprint*
 
-#### Comparing Efficiency of TRPO and CEM
-*S. Arnold & E. Chu*, Poster Presentation, 2016, *SoCal ML Symposium*
+#### A Performance Comparison between TRPO and CEM for Deep Reinforcement Learning
+*S. Arnold, E. Chu, F. Valero-Cuevas*, Poster Presentation, 2016, *SoCal ML Symposium*
 
 # Awards
 

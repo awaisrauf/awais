@@ -19,7 +19,7 @@
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.6.0/katex.min.css">
 
         <!--Pseudocode.js-->
-        <link rel="stylesheet" href="https://cdn.rawgit.com/tatetian/pseudocode.js/master/static/pseudocode.css">
+        <link rel="stylesheet" href="https://cdn.rawgit.com/seba-1511/cdn/master/pseudocode.js/pseudocode.min.css">
 
 
         <style type="text/css" media="all">
@@ -145,11 +145,13 @@
             <iframe src="https://cdn.knightlab.com/libs/timeline3/latest/embed/index.html?source=1wHvwpC-LW7OcPFPNBU4eQpHBwxrxlMveI5yqOcbCEEo&amp;font=OpenSans-GentiumBook&amp;lang=en&amp;initial_zoom=2&amp;height=650" width="100%" height="650" frameborder="0">
             </iframe>
             <h1 id="very-recent-works">Very Recent Works</h1>
-            <h3 id="randopt">Randopt</h3>
-            <h3 id="mujoco-environments">MuJoCo Environments</h3>
-            <h3 id="introduction-to-distributed-deep-learning">Introduction to Distributed Deep Learning</h3>
-            <h3 id="specialist-paper">Specialist Paper</h3>
-            <h3 id="quantum-optimization-code">Quantum Optimization Code</h3>
+            <ul>
+            <li>Randopt</li>
+            <li>MuJoCo Environments</li>
+            <li>Introduction to Distributed Deep Learning</li>
+            <li>Specialist Paper</li>
+            <li>Quantum Optimization Code</li>
+            </ul>
             <h1 id="research-experience">Research Experience</h1>
             <p>During my 3 years at USC, I was fortunate to work in a couple of research groups and under the supervision of several inspiring researchers. I will hopefully be able to include all of our results in my future bachelor thesis.</p>
             <h2 id="information-sciences-institute">Information Sciences Institute</h2>
@@ -167,12 +169,12 @@
             </div>
             <p>Although the field of distributed optimization has existed for a long time, the loss surface of deep neural networks is poorly understood and a very active research topic. Experts tend to agree that in very high-dimensions, the number of local minimas decreases exponentially and for neural-networks those local minimas are &quot;not that bad&quot;. <span class="citation">[<a href="#ref-dauphin">3</a>, <a href="#ref-losssurface">4</a>]</span> Our approach is to gather as much information about the Hessian of the loss function as we can, by taking advantage of the asynchrony in the distributed setting. I am responsible for designing and implementing the experiments, while the theory - and mathematical rigorousity - is developed in our meetings with Prof. Wang.</p>
             <h2 id="brain-body-dynamics-lab">Brain Body Dynamics Lab</h2>
-            <p>With an expanding understanding of the theory of optimization of neural networks and efficient distributed implementations, I was looking for an interesting project where I could apply those new skills. As a matter of fact, I believe the best researchers are able to produce both solid theoretical results - to impress their peers - as well as futuristic applications - to impress their grandmothers. </p>
+            <p>With an expanding understanding of the theory of optimization of neural networks and efficient distributed implementations, I was looking for an interesting project where I could apply those new skills. As a matter of fact, I believe the best researchers are able to produce both solid theoretical results - to impress their peers - as well as impressive applications - to impress their grandmothers. </p>
             <div class="figure">
             <img src="phd_figs/finger_screenshots.png" alt="A simulated tendon-driven finger." />
             <p class="caption">A simulated tendon-driven finger.</p>
             </div>
-            <p>In the early summer of 2016, I was given a chance to tour Prof. Francisco Valero-Cuevas' lab. In particular I connected with Brian Cohn, and we started looking for opportunities to apply distributed deep reinforcement learning to problems related to optimal control. By the end of July, we decided to explore transfer learning from a simulation, to a robotic, and finally to a human finger. The goal is to use the neural network as a controller so that by the end of the training procedure it is able to control a cadaveric finger activated by its tendons. Our current strategy is to mix TRPO <span class="citation">[<a href="#ref-trpo">5</a>]</span> with progressive neural networks <span class="citation">[<a href="#ref-pnn">6</a>]</span>, using ideas from probabilistic differential dynamic programming <span class="citation">[<a href="#ref-pddp">7</a>]</span>. My task is to develop the mathematical and experimental framework behind the experiments, and our early results <span class="citation">[<a href="#ref-trpocem">8</a>]</span> with Prof. Valero-Cuevas have been accepted as a poster paper at the SoCal Machine Learning Symposium. For those experiments, I developed the fastest implementation of TRPO, and distributed it over GPUs. I am also designing custom environments for transfer learning in reinforcement setups, as well as a convenient <a href="http://seba-1511.github.io/randopt">random search</a> library.</p>
+            <p>In the early summer of 2016, I was given a chance to tour Prof. Francisco Valero-Cuevas' lab. In particular I connected with Brian Cohn, and we started looking for opportunities to apply distributed deep reinforcement learning to problems related to optimal control. By the end of July, we decided to explore transfer learning from a simulation, to a robotic, and finally to a human finger. The goal is to use the neural network as a controller so that by the end of the training procedure it is able to control a cadaveric finger activated by its tendons. Our current strategy is to mix TRPO <span class="citation">[<a href="#ref-trpo">5</a>]</span> with progressive neural networks <span class="citation">[<a href="#ref-pnn">6</a>]</span>, using ideas from probabilistic differential dynamic programming <span class="citation">[<a href="#ref-pddp">7</a>]</span>. My task is to develop the mathematical and experimental framework behind the experiments, and our early results <span class="citation">[<a href="#ref-trpocem">8</a>]</span> with Prof. Valero-Cuevas have been accepted as a poster paper at the SoCal Machine Learning Symposium. For those experiments, I developed the fastest implementation of TRPO, and distributed it over GPUs. I am also designing custom environments for transfer learning in reinforcement setups, as well as a convenient random search library.</p>
             <h1 id="nervana-internship">Nervana Internship</h1>
             <p>During the summer of 2015, Nervana Systems asked me if I would be interested in joining their team as an intern for the fall semester. This request came after several of my contributions being merged in their framework. From August 2015 to August 2016, I was thus interning with them remote and part-time. This would not have been possible without the help of Dr. Michael Shindler who supervised me throughout the internship. </p>
             <div class="figure">
@@ -186,12 +188,12 @@
             <li>A <strong>learner</strong> who takes the experience from the memory replay and executes the optimization procedure. That's where parameters are updated.</li>
             <li>A <strong>manager</strong> responsible for the coordination of all other processes. This includes start-up and shutdown management, parameters distribution, etc...</li>
             </ul>
-            <p>This implementation is unfortunately private and is the only such implementation I am aware of. (Besides the original one developed by DeepMind)</p>
+            <p>This implementation of Gorila is the only one I am aware of. (Besides the original one developed by DeepMind)</p>
             <div class="figure">
             <img src="phd_figs/pipeline.png" alt="Our ndist pipeline for distributed deep learning." />
             <p class="caption">Our ndist pipeline for distributed deep learning.</p>
             </div>
-            <p>In the second project at Nervana, I re-spawned the distributed training effort of the company. I investigated several approaches using MPI. In particular, we were interested in very large neural network optimization (with several dozens of millions of parameters) and concluded that tree-based reductions were our best option. While I worked on scaling the training procedure across machines using fast Infiniband connects, a colleague worked on improving the efficiency of intra-node communication. We were both implementing different versions of the all-reduce algorithm and were obtaining different results because of the network architecture of the computational system. I then suggested to merge our efforts into the <em>Nervana Distributed Pipeline</em> or <em>ndist</em>. Ndist essentially allows us to use his fast GPU kernels for intra-node communication, and MPI for inter-node communication. In addition, by clearly separating the those two levels, we are now able to explore more interesting and complex training and reduction schemes. For example, we can use a ring-based reduction algorithm at the GPU level while using a tree-based one at the machine level. Similarly, we can use different optimization algorithms at each computational level which permits more flexibility with respect to asynchrony. We are currently in the midst of writing the paper about ndist, but the recent acquisition<a href="#fn4" class="footnoteRef" id="fnref4"><sup>4</sup></a> of Nervana by Intel has added a bit of paperwork overhead.</p>
+            <p>In my second project at Nervana, I extended the distributed training effort of the company. I investigated several approaches using MPI. In particular, we were interested in very large neural network optimization (with several dozens of millions of parameters) and concluded that tree-based reductions were our best option. While I worked on scaling the training procedure across machines using fast Infiniband connects, a colleague worked on improving the efficiency of intra-node communication. We were both implementing different versions of the all-reduce algorithm and were obtaining different results because of the network architecture of the computational system. I then suggested to merge our efforts into the <em>Nervana Distributed Pipeline</em> or <em>ndist</em>. Ndist essentially allows us to use both fast GPU kernels for intra-node communication, and MPI for inter-node communication. In addition, by clearly separating those two levels, we are now able to explore more interesting and complex training and reduction schemes. For example, we can use a ring-based reduction algorithm at the GPU level while using a tree-based one at the machine level. Similarly, we can use different optimization algorithms at each computational level which permits more flexibility with respect to asynchrony. We are currently in the midst of testing and writing the paper about ndist, but the recent acquisition<a href="#fn4" class="footnoteRef" id="fnref4"><sup>4</sup></a> of Nervana by Intel has added a bit of paperwork overhead.</p>
             <h1 id="eth-zürich">ETH Zürich</h1>
             <p>It is no secret that before joining USC, I was a student at ETH Zürich. In the following section I'll shortly describe my work in the Computational Social Science Group.</p>
             <h2 id="computational-social-science">Computational Social Science</h2>
@@ -199,13 +201,11 @@
             <p>While a student at the COMS, I also implemented part of the infrastructure for a mass experiment trying to quantify the meritocratic behaviour in groups of people. As far as I know, those results have never been published.</p>
             <h1 id="personal-projects">Personal Projects</h1>
             <p>I've been working on a few personal projects, and here are a few lines about some of them.</p>
-            <h3 id="randopt-1">Randopt</h3>
-            <p><a href="https://seba-1511.github.io/randopt/">Randopt</a> is a python package to streamline the search for good hyper-parameters. It provides a programmatic interface to serialize hyper-parameters and results. The same interface can be used to visualize and work with those serializations, or rendered in an interactive web-page. Finally, we're working on utilities for hyper-parameter selection. (eg, random search, Bayesian optimization, Hyperband)</p>
-            <h3 id="tooski">Tooski</h3>
+            <h4 id="tooski">Tooski</h4>
             <p>As I was learning to program, I used to ski competitively. I merged both passions and founded <a href="http://www.tooski.ch">Tooski</a>, which is a website about ski racing. It is currently the most visited French-speaking skiing website, and we are particularly proud to support the Swiss youth through blogs and sponsoring. The lead of this project has now been handed over to a group of people based in Europe who can maintain the website and more closely follow the evolution of this promising Swiss youth.</p>
-            <h3 id="paperify">Paperify</h3>
+            <h4 id="paperify">Paperify</h4>
             <p>I've always liked to build my own tools. Paperify is a set of custom templates, wrappers, filters, and other small hacks that allow me to produce professional documents. This document, <a href="http://www.seba1511.com">my website</a>, my resume are all written in markdown - which forces the focus on the content rather than the form - and then converted to the appropriate format using paperify. Using that same workflow, it is possible to generate PDFs,  documents, presentations, and web pages.</p>
-            <h3 id="languages">Languages</h3>
+            <h4 id="languages">Languages</h4>
             <p>I was fortunate to be the offspring of an Italian mother and a Swiss father, in a country with four official languages. Given that my father is a translator, it is not surprising that I am generally interested in learning new languages as soon as I have a chance. Lately I've been taking a stab at Spanish and I hope to become as fluent in it as I am in French, Italian, German and English.</p>
             <h1 id="references">References</h1>
             <p>Some of the papers I referenced in this document.</p>
@@ -244,7 +244,7 @@
             <li id="fn1"><p>The other being a collaboration between Google and NASA.<a href="#fnref1">↩</a></p></li>
             <li id="fn2"><p>&quot;When can Quantum Annealing win ?&quot;, <a href="https://goo.gl/gQiWJ0" class="uri">https://goo.gl/gQiWJ0</a><a href="#fnref2">↩</a></p></li>
             <li id="fn3"><p>Not yet published, but available on the pre-print website <a href="http://www.arxiv.org">ArXiv</a>.<a href="#fnref3">↩</a></p></li>
-            <li id="fn4"><p>Reportedly for more than $400M. Not bad for 45 full-timers. Interns did not get a share though.<a href="#fnref4">↩</a></p></li>
+            <li id="fn4"><p>Reportedly for more than $400M. Not bad for 45 full-timers.<a href="#fnref4">↩</a></p></li>
             </ol>
             </div>
             
@@ -279,7 +279,8 @@
         <!--<script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.6.0/contrib/auto-render.min.js"></script>-->
 
         <!--Pseudocode.js-->
-        <script src="http://www.tatetian.io/pseudocode.js/pseudocode/pseudocode.min.js"></script>
+        <script src="https://cdn.rawgit.com/seba-1511/cdn/master/pseudocode.js/pseudocode.min.js"></script>
+        <!--<script src="https://rawgit.com/seba-1511/cdn/master/pseudocode.js/pseudocode.min.js"></script>-->
 
         <!--Custom scripting-->
         <script type="text/javascript">
@@ -314,6 +315,7 @@
                 lineNumberPunc: ':',
                 noEnd: true,
                 captionCount: 1,
+                throwOnError: false,
             };
             for (i=0; i < pseudocodeElems.length; i++) {
                 content = pseudocodeElems[i].textContent;
