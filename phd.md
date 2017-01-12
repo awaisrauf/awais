@@ -11,9 +11,9 @@ I am currently applying to PhD programs that start in Autumn of 2017. This docum
 
 # Very Recent Works
 
-* [Randopt]()
-* MuJoCo Environments
-* [Introduction to Distributed Deep Learning]()
+* [Randopt](https://seba-1511.github.io/randopt/)
+* [MuJoCo Transfer Learning Environments](https://seba-1511.github.io/mj_transfer/)
+* Introduction to Distributed Deep Learning ([Online draft](https://seba-1511.github.io/dist_blog/))
 
 # Research Experience
 
