@@ -37,6 +37,11 @@ I am currently applying to graduate school ! To learn more about my undergraduat
 
 # News
 
+#### ICLR17 Workshop submission
+Together with Prof. Chunming Wang, we submitted a workshop paper presenting our work on second-order optimization for distributed deep learning to ICLR17. [Link](https://openreview.net/forum?id=B1lpelBYl&noteId=B1lpelBYl)
+
+<br />
+
 #### Open-Sourcing mj_transfer
 We open-sourced some [MuJoCo](http://mujoco.org/) environments for robotic transfer learning on OpenAI Gym. [[GitHub Repo](https://github.com/seba-1511/mj_transfer), [Website](http://seba-1511.github.io/mj_transfer)] 
 

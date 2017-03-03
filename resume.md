@@ -83,6 +83,9 @@ Angulation.
 #### A Performance Comparison between TRPO and CEM for Deep Reinforcement Learning
 *S. Arnold, E. Chu, F. Valero-Cuevas*, Poster Presentation, 2016, *SoCal ML Symposium*
 
+#### Accelerating SGD for Distributed Deep Learning Using an Approximated Hessian Matrix
+*S. Arnold, . Wang*, Under review at ICLR17 Workshop
+
 # Awards
 
 * **David Wiesen Scholarship**: 2016
