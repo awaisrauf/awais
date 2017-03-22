@@ -77,14 +77,17 @@ Angulation.
 
 # Writings
 
-#### A Greedy Algorithm to Cluster Specialists
-*S. Arnold*, Technical Report, 2016, *Arxiv Preprint*
-
-#### A Performance Comparison between TRPO and CEM for Deep Reinforcement Learning
-*S. Arnold, E. Chu, F. Valero-Cuevas*, Poster Presentation, 2016, *SoCal ML Symposium*
+### Shapechanger: Environments for Transfer Learning
+*S. Arnold, T.K. Pun, T.J. Denisart, F.J. Valero-Cuevas*, 2017, Under review at SoCal Robotics Symposium
 
 #### Accelerating SGD for Distributed Deep Learning Using an Approximated Hessian Matrix
-*S. Arnold, . Wang*, Under review at ICLR17 Workshop
+*S. Arnold, C. Wang*, 2017, ICLR Workshop
+
+#### A Performance Comparison between TRPO and CEM for Deep Reinforcement Learning
+*S. Arnold, E. Chu, F. Valero-Cuevas*, 2016, SoCal ML Symposium
+
+#### A Greedy Algorithm to Cluster Specialists
+*S. Arnold*, Technical Report, 2016, Arxiv Preprint
 
 # Awards
 

@@ -38,7 +38,7 @@ I am currently applying to graduate school ! To learn more about my undergraduat
 # News
 
 #### ICLR17 Workshop submission
-Together with Prof. Chunming Wang, we submitted a workshop paper presenting our work on second-order optimization for distributed deep learning to ICLR17. [Link](https://openreview.net/forum?id=B1lpelBYl&noteId=B1lpelBYl)
+Together with Prof. Chunming Wang, we submitted a workshop paper presenting our work on second-order optimization for distributed deep learning to ICLR17. Update: It was accepted! [[Link](https://openreview.net/forum?id=B1lpelBYl&noteId=B1lpelBYl)]
 
 <br />
 
