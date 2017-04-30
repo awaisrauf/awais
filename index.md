@@ -28,8 +28,8 @@ I also like skiing ([a lot](http://www.tooski.ch)).
 <br />
 <br />
 
-# PhD Application
-I am currently applying to graduate school ! To learn more about my undergraduate research and work experience, please follow [this link](./phd.html).
+<!--# PhD Application-->
+<!--I am currently applying to graduate school ! To learn more about my undergraduate research and work experience, please follow [this link](./phd.html).-->
 
 <!--<br />-->
 <!--<br />-->
@@ -39,6 +39,11 @@ I am currently applying to graduate school ! To learn more about my undergraduat
 
 #### ICLR17 Workshop submission
 Together with Prof. Chunming Wang, we submitted a workshop paper presenting our work on second-order optimization for distributed deep learning to ICLR17. Update: It was accepted! [[Link](https://openreview.net/forum?id=B1lpelBYl&noteId=B1lpelBYl)]
+
+<br />
+
+#### SoCal Robotics Symposium
+Together with Ewina Pun and Théo Denisart, we will be presenting [**Shapechanger**](http://seba-1511.github.io/shapechanger) - our Environments for Transfer Learning - at the [SoCal Robotics Symposium](http://socal-robotics.org/). 
 
 <br />
 

@@ -7,7 +7,7 @@
 
 ## University of Southern California \hfill{August 2014 - Present}
 ### BS. Computer Science & BA. Mathematics 
-Continuation of my Bachelor's degree. CS honor society member, Society of Women in Engineering member, 4 Graduate classes.
+Continuation of my Bachelor's degree. CS honor society member, Society of Women in Engineering member, 5 Graduate classes.
 Objective: graduation in 3 years.
 
 ## ETH Zürich \hfill{September 2011 - August 2013}
@@ -78,7 +78,7 @@ Angulation.
 # Writings
 
 ### Shapechanger: Environments for Transfer Learning
-*S. Arnold, T.K. Pun, T.J. Denisart, F.J. Valero-Cuevas*, 2017, Under review at SoCal Robotics Symposium
+*S. Arnold, T.K. Pun, T.J. Denisart, F.J. Valero-Cuevas*, 2017, SoCal Robotics Symposium
 
 #### Accelerating SGD for Distributed Deep Learning Using an Approximated Hessian Matrix
 *S. Arnold, C. Wang*, 2017, ICLR Workshop
@@ -91,12 +91,14 @@ Angulation.
 
 # Awards
 
+* **USC Undergraduate Research Project**: $2^{\text{nd}}$ Place in Mathematics, Physics, and Engineering 
 * **David Wiesen Scholarship**: 2016
 * **USC Summer Undergraduate Research Fellowship**: 2016
 * **Microsoft Tuition Scholarship**: Finalist, 2016
 * **USC Academic Achievement Award**: 2015, 2016
 * **USC Provost Research Fellowship**: 2015, 2016
 * **USC Dean's List**: 2014, 2015, 2016
+* **HackSC Winner - Microsoft Category**: 2014
 
 
 # Languages
