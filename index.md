@@ -1,6 +1,6 @@
 % Welcome
 % Séb Arnold
-% October 13, 2016
+% September 9, 2017
 
 <link rel="stylesheet" href="https://bootswatch.com/cosmo/bootstrap.css" />
 
@@ -8,7 +8,9 @@
 <div class="col-md-10 col-md-offset-0 row" style="margin-top:10px;">
 <div class="col-md-7" style="text-align:justify;margin-top:25px;font-size:12pt;">
 
-I am an undergraduate student at the [University of Southern California](http://www.usc.edu), double majoring in Computer Science and Math. My research interests lie in [artificial intelligence](http://valerolab.org/), distributed systems, and [mathematical optimization](http://dornsife.usc.edu/labs/msl/).
+I am a doctoral student in the [Theoretical and Emprical Data Science Lab](http://www.teds.usc.edu/) supervised by Fei Sha. My reserch topic lies at the intersection of optimization and reinforcement learning.
+
+I did my undergraduate at the [University of Southern California](http://www.usc.edu), double majoring in Computer Science and Mathematics. My research focused on [artificial intelligence](http://valerolab.org/), distributed systems, and [mathematical optimization](http://dornsife.usc.edu/labs/msl/).
 
 I also like skiing ([a lot](http://www.tooski.ch)).
 
@@ -27,13 +29,6 @@ I also like skiing ([a lot](http://www.tooski.ch)).
 <br />
 <br />
 <br />
-
-<!--# PhD Application-->
-<!--I am currently applying to graduate school ! To learn more about my undergraduate research and work experience, please follow [this link](./phd.html).-->
-
-<!--<br />-->
-<!--<br />-->
-
 
 # News
 

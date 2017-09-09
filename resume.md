@@ -5,12 +5,15 @@
 
 # Education
 
-## University of Southern California \hfill{August 2014 - Present}
-### BS. Computer Science & BA. Mathematics 
-Continuation of my Bachelor's degree. CS honor society member, Society of Women in Engineering member, 5 Graduate classes.
-Objective: graduation in 3 years.
+## University of Southern California \hfill{August 2017 - Present}
+### Ph.D. Computer Science
+Under the supervision of Prof. Fei Sha. Research topic: Optimization and Reinforcement Learning. 
 
-## ETH Zürich \hfill{September 2011 - August 2013}
+## University of Southern California \hfill{August 2014 - August 2017}
+### BS. Computer Science & BA. Mathematics (with honors)
+CS honor society member, Society of Women in Engineering member, 5 Graduate classes.
+
+## ETH Zürich (dropout) \hfill{September 2011 - August 2013}
 ### BS. Computer Science 
 German-based instruction, advanced class in
 parallel and distributed computing, machine learning project with Yuxin Chen, PhD
@@ -30,11 +33,15 @@ High-school degree, with an emphasis on Mathematics and Physics.
 
 # Research Experience
 
-## Brain-Body Dynamics Lab - USC \hfill{July 2016 - Present}
+## Theoretical and Empirical Data Science Lab - USC \hfill{August 2017 - Present}
+### Doctoral Student - Advisor: Prof. Fei Sha
+Research topic: Optimization and Reinforcement Learning.
+
+## Brain-Body Dynamics Lab - USC \hfill{July 2016 - August 2017}
 ### Undergraduate Researcher - Advisor: Prof. Francisco Valero-Cuevas
 Investigating deep reinforcement learning algorithms for simulated, robotic, and cadaveric hand control.
 
-## Simulation and Modelling Lab - USC \hfill{April 2016 - Present}
+## Simulation and Modelling Lab - USC \hfill{April 2016 - August 2017}
 ### Undergraduate Researcher - Advisor: Prof. Chunming Wang
 Investigating second order optimization methods for distributed deep learning.
 
