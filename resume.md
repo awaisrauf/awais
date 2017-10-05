@@ -84,7 +84,7 @@ Angulation.
 
 # Writings
 
-### Shapechanger: Environments for Transfer Learning
+#### Shapechanger: Environments for Transfer Learning
 *S. Arnold, T.K. Pun, T.J. Denisart, F.J. Valero-Cuevas*, 2017, SoCal Robotics Symposium
 
 #### Accelerating SGD for Distributed Deep Learning Using an Approximated Hessian Matrix

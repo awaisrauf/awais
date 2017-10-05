@@ -1,6 +1,6 @@
-% Welcome
+% Home
 % Séb Arnold
-% September 9, 2017
+% October 4, 2017
 
 <link rel="stylesheet" href="https://bootswatch.com/cosmo/bootstrap.css" />
 
@@ -19,8 +19,8 @@ I also like skiing ([a lot](http://www.tooski.ch)).
 
 </div>
 <div class="col-md-5" style="text-align:center;">
-<img src="./images/seb.png" style="max-width:250px;height:auto;margin:auto;" alt="Me and motorcycle hair" />
-<p><i><small>The all-new motorcycle haircut</small></i></p>
+<img src="./images/seb_2017_3.png" style="max-width:250px;height:auto;margin:auto;" alt="Me and motorcycle hair" />
+<p><i><small>&nbsp;</small></i></p>
 </div>
 </div>
 </div>
@@ -42,14 +42,34 @@ Together with Ewina Pun and Théo Denisart, we will be presenting [**Shapechange
 
 <br />
 
-#### Open-Sourcing mj_transfer
-We open-sourced some [MuJoCo](http://mujoco.org/) environments for robotic transfer learning on OpenAI Gym. [[GitHub Repo](https://github.com/seba-1511/mj_transfer), [Website](http://seba-1511.github.io/mj_transfer)] 
+#### Open-Sourcing Shapechanger
+We open-sourced some environments for robotic transfer learning on OpenAI Gym. [[GitHub Repo](https://github.com/seba-1511/shapechanger), [Website](http://seba-1511.github.io/shapechanger)] 
+
+
+<br />
+<br />
+<br />
+
+# Publications
+
+#### Shapechanger: Environments for Transfer Learning
+*S. Arnold, E. Pun, T. Denisart, F. Valero-Cuevas*, 2017, SoCal Robotics Symposium [[ArXiv](https://arxiv.org/abs/1709.05070), [pdf](https://arxiv.org/pdf/1709.05070), [website](http://seba-1511.github.io/shapechanger)]
 
 <br />
 
+#### Accelerating SGD for Distributed Deep Learning Using an Approximated Hessian Matrix
+*S. Arnold, C. Wang*, 2017, ICLR Workshop [[ArXiv](https://arxiv.org/abs/1709.05069), [pdf](https://arxiv.org/pdf/1709.05069)]
 
-#### Open-Sourcing randopt
-I open-sourced [randopt](https://seba-1511.github.io/randopt/), a [python package](https://pypi.python.org/pypi/randopt) to streamline the search for good hyper-parameters. An effort to be [continued](https://github.com/seba-1511/randopt). 
+<br />
+
+#### A Performance Comparison between TRPO and CEM for Reinforcement Learning
+*S. Arnold, E. Chu, F. Valero-Cuevas*, 2016, SoCal ML Symposium
+
+<br />
+
+#### A Greedy Algorithm to Cluster Specialists
+S. Arnold, 2016, *ArXiv Pre-prints* [[ArXiv](https://arxiv.org/abs/1609.03666), [pdf](https://arxiv.org/pdf/1609.03666)]
+
 
 <br />
 <br />
@@ -57,29 +77,15 @@ I open-sourced [randopt](https://seba-1511.github.io/randopt/), a [python packag
 
 # Projects
 
-### randopt
+#### Randopt
 Randopt is a python package to streamline the search for good hyper-parameters. It provides a programmatic interface to serialize, choose, and visualize hyper-parameters and results. [[GitHub Repo](https://github.com/seba-1511/randopt), [Blog Post](https://seba-1511.github.io/randopt/)] 
 
-### Paperify.py
+#### Paperify.py
 A tool to convert markdown files into beautiful LaTeX docs and web pages. A work in progress. [[Web Demo](http://seba-1511.github.io/config/), [PDF Examples](https://github.com/seba-1511/config/tree/master/tex_templates/examples)]
 
-### Specialists
-Code for the report "A Greedy Algorithm to Cluster Specialists", where I develop an algorithm for the class assignment problem in the generalist-specialist framework. [[GitHub Repo](https://github.com/seba-1511/specialists)]
-
-### Quantum Opt
+#### Quantum Opt
 Comparing the performance of simulated annealing against a simulation of adiabatic quantum computing on Ising problems. [[GitHub Repo](https://github.com/seba-1511/quantum_opt)]
 
-### Tooski
+#### Tooski
 Simply the best skiing website ever ? [[Website](http://www.tooski.ch/)]
 
-### ML Compare
-Compare machine learning algorithms on the same dataset, with only one line. It is distributed across your cores ! [[GitHub Repo](https://github.com/ZebTech/MLCompare)]
-
-### Meritocracy
-A web-based social experiment to evaluate the meritocracy of people. [[GitHub Repo](https://github.com/seba-1511/meritocracy)]
-
-### Generatic Experiment
-Uses a genetic algorithm to generate images out of a trained convnet. Also, tries to learn from the generated images only. [[GitHub Repo](http://github.com/ZebTech/geneticExperiment)]
-
-### Tea Stock Market
-Predict the fluctuations of Indian Tea Companies' stock market, based on weather data. A lot of machine learning, some financial analysis. [[GitHub Repo](https://github.com/seba-1511/stockMarket)]
