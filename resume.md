@@ -74,7 +74,7 @@ leader in a team of 4.
 ## Tooski \hfill{January 2009 - Present}
 ### Founder
 Development of the leading French-speaking skiing website, and its magazine
-Angulation.
+*Angulation*.
 
 
 \hfill{}
@@ -84,18 +84,23 @@ Angulation.
 # Writings
 
 #### Writing Distributed Applications with PyTorch
+
 *S. Arnold*, 2017, PyTorch Tutorials
 
 #### Shapechanger: Environments for Transfer Learning
+
 *S. Arnold, T.K. Pun, T.J. Denisart, F.J. Valero-Cuevas*, 2017, SoCal Robotics Symposium
 
 #### Accelerating SGD for Distributed Deep Learning Using an Approximated Hessian Matrix
+
 *S. Arnold, C. Wang*, 2017, ICLR Workshop
 
 #### A Performance Comparison between TRPO and CEM for Reinforcement Learning
+
 *S. Arnold, E. Chu, F. Valero-Cuevas*, 2016, SoCal ML Symposium
 
 #### A Greedy Algorithm to Cluster Specialists
+
 *S. Arnold*, Technical Report, 2016, Arxiv Preprint
 
 # Awards
