@@ -32,6 +32,9 @@ I also like skiing ([a lot](http://www.tooski.ch)).
 
 # News
 
+#### PyTorch Distributed Tutorial
+I just published an official tutorial on the distributed package of PyTorch. Thanks to the community for their help in answering my questions ! [[Tutorial](http://pytorch.org/tutorials/intermediate/dist_tuto.html)]
+
 #### ICLR17 Workshop submission
 Together with Prof. Chunming Wang, we submitted a workshop paper presenting our work on second-order optimization for distributed deep learning to ICLR17. Update: It was accepted! [[Link](https://openreview.net/forum?id=B1lpelBYl&noteId=B1lpelBYl)]
 

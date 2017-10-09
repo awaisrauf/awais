@@ -1,4 +1,4 @@
-% S$\acute{\text{e}}$bastien Arnold
+% S$\acute{\text{e}}$bastien M. R. Arnold
 % arnolds@usc.edu
 % www.seba1511.com
 
@@ -11,10 +11,10 @@ Under the supervision of Prof. Fei Sha. Research topic: Optimization and Reinfor
 
 ## University of Southern California \hfill{August 2014 - August 2017}
 ### BS. Computer Science & BA. Mathematics (with honors)
-CS honor society member, Society of Women in Engineering member, 5 Graduate classes.
+CS honors society member & Society of Women in Engineering member.
 
-## ETH Zürich (dropout) \hfill{September 2011 - August 2013}
-### BS. Computer Science 
+## ETH Zürich \hfill{September 2011 - August 2013}
+### BS. Computer Science (dropout) 
 German-based instruction, advanced class in
 parallel and distributed computing, machine learning project with Yuxin Chen, PhD
 student of Prof. Andreas Krause.
@@ -66,7 +66,7 @@ appraisal from the European Commission and fundings for coming years.
 Development of distributed deep learning library and project in distributed deep
 reinforcement learning.
 
-## Schneeberger AG \hfill{June 2014 - Novemer 2014}
+## Schneeberger AG \hfill{May 2014 - November 2014}
 ### Lead Developer 
 Development of a financial management tool for an international usage. Engineering
 leader in a team of 4.
@@ -81,8 +81,10 @@ Angulation.
 \hfill{}
 
 
-
 # Writings
+
+#### Writing Distributed Applications with PyTorch
+*S. Arnold*, 2017, PyTorch Tutorials
 
 #### Shapechanger: Environments for Transfer Learning
 *S. Arnold, T.K. Pun, T.J. Denisart, F.J. Valero-Cuevas*, 2017, SoCal Robotics Symposium
@@ -90,7 +92,7 @@ Angulation.
 #### Accelerating SGD for Distributed Deep Learning Using an Approximated Hessian Matrix
 *S. Arnold, C. Wang*, 2017, ICLR Workshop
 
-#### A Performance Comparison between TRPO and CEM for Deep Reinforcement Learning
+#### A Performance Comparison between TRPO and CEM for Reinforcement Learning
 *S. Arnold, E. Chu, F. Valero-Cuevas*, 2016, SoCal ML Symposium
 
 #### A Greedy Algorithm to Cluster Specialists
