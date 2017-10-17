@@ -105,6 +105,7 @@ Development of the leading French-speaking skiing website, and its magazine
 
 # Awards
 
+* **USC Senior Award for Excellence in Mathematics**: Honorable Mention
 * **USC Undergraduate Research Project**: $2^{\text{nd}}$ Place in Mathematics, Physics, and Engineering 
 * **David Wiesen Scholarship**: 2016
 * **USC Summer Undergraduate Research Fellowship**: 2016
