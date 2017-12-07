@@ -10,7 +10,7 @@
 
 I am a doctoral student in the [Theoretical and Emprical Data Science Lab](http://www.teds.usc.edu/) supervised by Fei Sha. My reserch topic lies at the intersection of optimization and reinforcement learning.
 
-I did my undergraduate at the [University of Southern California](http://www.usc.edu), double majoring in Computer Science and Mathematics. My research focused on [artificial intelligence](http://valerolab.org/), distributed systems, and [mathematical optimization](http://dornsife.usc.edu/labs/msl/).
+I did my undergraduate at the [University of Southern California](http://www.usc.edu), double majoring in Computer Science and Mathematics. My research focused on [machine learning](http://valerolab.org/), distributed systems, and [mathematical optimization](http://dornsife.usc.edu/labs/msl/).
 
 I also like skiing ([a lot](http://www.tooski.ch)).
 
