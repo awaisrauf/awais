@@ -3,6 +3,11 @@
 % October 4, 2017
 
 <link rel="stylesheet" href="https://bootswatch.com/cosmo/bootstrap.css" />
+<style>
+a, a:hover {
+    color: #2AA7E7;
+}
+</style>
 
 <div class="container header-margin">
 <div class="col-md-10 col-md-offset-0 row" style="margin-top:10px;">
@@ -32,23 +37,18 @@ I also like skiing ([a lot](http://www.tooski.ch)).
 
 # News
 
+#### WIRED Article on Kleo
+Matt Simon from WIRED brilliantly covered our work on Kleo the robotic cat from the ValeroLab ! [[Article](https://www.wired.com/story/the-quest-to-make-a-robot-cat-walk-with-artificial-neurons/)]
+
+<br />
+
+#### Randopt at PyCon18
+Randopt was accepted as a poster presentation to PyCon18. For the occasion, I am revamped the website and documentation. See you in Cleveland ! [[Website](https://seba-1511.github.io/randopt/)]
+
+<br />
+
 #### PyTorch Distributed Tutorial
 I just published an official tutorial on the distributed package of PyTorch. Thanks to the community for their help in answering my questions ! [[Tutorial](http://pytorch.org/tutorials/intermediate/dist_tuto.html)]
-
-<br />
-
-#### ICLR17 Workshop submission
-Together with Prof. Chunming Wang, we submitted a workshop paper presenting our work on second-order optimization for distributed deep learning to ICLR17. Update: It was accepted! [[Link](https://openreview.net/forum?id=B1lpelBYl&noteId=B1lpelBYl)]
-
-<br />
-
-#### SoCal Robotics Symposium
-Together with Ewina Pun and Théo Denisart, we will be presenting [**Shapechanger**](http://seba-1511.github.io/shapechanger) - our Environments for Transfer Learning - at the [SoCal Robotics Symposium](http://socal-robotics.org/). 
-
-<br />
-
-#### Open-Sourcing Shapechanger
-We open-sourced some environments for robotic transfer learning on OpenAI Gym. [[GitHub Repo](https://github.com/seba-1511/shapechanger), [Website](http://seba-1511.github.io/shapechanger)] 
 
 
 <br />
@@ -83,13 +83,10 @@ S. Arnold, 2016, *ArXiv Pre-prints* [[ArXiv](https://arxiv.org/abs/1609.03666), 
 # Projects
 
 #### Randopt
-Randopt is a python package to streamline the search for good hyper-parameters. It provides a programmatic interface to serialize, choose, and visualize hyper-parameters and results. [[GitHub Repo](https://github.com/seba-1511/randopt), [Blog Post](https://seba-1511.github.io/randopt/)] 
+Randopt is a python package to streamline the search for good hyper-parameters. It provides a programmatic interface to serialize, choose, and visualize hyper-parameters and results. [[GitHub Repo](https://github.com/seba-1511/randopt), [Website Post](https://seba-1511.github.io/randopt/)] 
 
 #### Paperify.py
-A tool to convert markdown files into beautiful LaTeX docs and web pages. A work in progress. [[Web Demo](http://seba-1511.github.io/config/), [PDF Examples](https://github.com/seba-1511/config/tree/master/tex_templates/examples)]
-
-#### Quantum Opt
-Comparing the performance of simulated annealing against a simulation of adiabatic quantum computing on Ising problems. [[GitHub Repo](https://github.com/seba-1511/quantum_opt)]
+A tool to convert markdown files into beautiful LaTeX docs, web pages, and presentations. A work in progress. [[Web Demo](http://seba-1511.github.io/config/), [PDF Examples](https://github.com/seba-1511/config/tree/master/tex_templates/examples)]
 
 #### Tooski
 Simply the best skiing website ever ? [[Website](http://www.tooski.ch/)]

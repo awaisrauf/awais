@@ -8,18 +8,18 @@
         <title>Home - Séb Arnold</title>
 
         <!-- Bootstrap -->
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css" />
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootswatch/3.3.7/sandstone/bootstrap.min.css" />
+        <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css" />
+        <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/bootswatch/3.3.7/sandstone/bootstrap.min.css" />
 
         <!--Prism for code high-lighting-->
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.5.1/themes/prism.min.css" />
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.5.1/themes/prism-solarizedlight.css" / >
+        <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/prism/1.5.1/themes/prism.min.css" />
+        <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/prism/1.5.1/themes/prism-solarizedlight.css" / >
 
         <!--KaTeX for fast embedded math-->
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.6.0/katex.min.css">
+        <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.6.0/katex.min.css">
 
         <!--Pseudocode.js-->
-        <link rel="stylesheet" href="https://cdn.rawgit.com/seba-1511/cdn/master/pseudocode.js/pseudocode.min.css">
+        <link rel="stylesheet" href="http://cdn.rawgit.com/seba-1511/cdn/master/pseudocode.js/pseudocode.min.css">
 
 
         <style type="text/css" media="all">
@@ -112,14 +112,14 @@
         <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
         <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
         <!--[if lt IE 9]>
-            <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
-            <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+            <script src="//oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+            <script src="//oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
         <![endif]-->
 
 
         <!--Plotly.js-->
         <!--Needs to be imported before body, else figs won't load.-->
-        <script src="https://cdn.plot.ly/plotly-1.2.0.min.js"></script>
+        <script src="http://cdn.plot.ly/plotly-1.2.0.min.js"></script>
 
     </head>
     <body>
@@ -137,7 +137,12 @@
                 <h4 class="text-sm text-muted text-center"> by Séb Arnold,  <span style="font-weight:normal;"><i>October 4, 2017</i></span></h4>
                             </div>
 
-                        <p><link rel="stylesheet" href="https://bootswatch.com/cosmo/bootstrap.css" /></p>
+                        <link rel="stylesheet" href="https://bootswatch.com/cosmo/bootstrap.css" />
+            <style>
+            a, a:hover {
+                color: #2AA7E7;
+            }
+            </style>
             <div class="container header-margin">
             <div class="col-md-10 col-md-offset-0 row" style="margin-top:10px;">
             <div class="col-md-7" style="text-align:justify;margin-top:25px;font-size:12pt;">
@@ -156,17 +161,14 @@
             </div>
             <p><br /> <br /> <br /></p>
             <h1 id="news">News</h1>
+            <h4 id="wired-article-on-kleo">WIRED Article on Kleo</h4>
+            <p>Matt Simon from WIRED brilliantly covered our work on Kleo the robotic cat from the ValeroLab ! [<a href="https://www.wired.com/story/the-quest-to-make-a-robot-cat-walk-with-artificial-neurons/">Article</a>]</p>
+            <p><br /></p>
+            <h4 id="randopt-at-pycon18">Randopt at PyCon18</h4>
+            <p>Randopt was accepted as a poster presentation to PyCon18. For the occasion, I am revamped the website and documentation. See you in Cleveland ! [<a href="https://seba-1511.github.io/randopt/">Website</a>]</p>
+            <p><br /></p>
             <h4 id="pytorch-distributed-tutorial">PyTorch Distributed Tutorial</h4>
             <p>I just published an official tutorial on the distributed package of PyTorch. Thanks to the community for their help in answering my questions ! [<a href="http://pytorch.org/tutorials/intermediate/dist_tuto.html">Tutorial</a>]</p>
-            <p><br /></p>
-            <h4 id="iclr17-workshop-submission">ICLR17 Workshop submission</h4>
-            <p>Together with Prof. Chunming Wang, we submitted a workshop paper presenting our work on second-order optimization for distributed deep learning to ICLR17. Update: It was accepted! [<a href="https://openreview.net/forum?id=B1lpelBYl&amp;noteId=B1lpelBYl">Link</a>]</p>
-            <p><br /></p>
-            <h4 id="socal-robotics-symposium">SoCal Robotics Symposium</h4>
-            <p>Together with Ewina Pun and Théo Denisart, we will be presenting <a href="http://seba-1511.github.io/shapechanger"><strong>Shapechanger</strong></a> - our Environments for Transfer Learning - at the <a href="http://socal-robotics.org/">SoCal Robotics Symposium</a>.</p>
-            <p><br /></p>
-            <h4 id="open-sourcing-shapechanger">Open-Sourcing Shapechanger</h4>
-            <p>We open-sourced some environments for robotic transfer learning on OpenAI Gym. [<a href="https://github.com/seba-1511/shapechanger">GitHub Repo</a>, <a href="http://seba-1511.github.io/shapechanger">Website</a>]</p>
             <p><br /> <br /> <br /></p>
             <h1 id="publications">Publications</h1>
             <h4 id="shapechanger-environments-for-transfer-learning">Shapechanger: Environments for Transfer Learning</h4>
@@ -183,11 +185,9 @@
             <p><br /> <br /> <br /></p>
             <h1 id="projects">Projects</h1>
             <h4 id="randopt">Randopt</h4>
-            <p>Randopt is a python package to streamline the search for good hyper-parameters. It provides a programmatic interface to serialize, choose, and visualize hyper-parameters and results. [<a href="https://github.com/seba-1511/randopt">GitHub Repo</a>, <a href="https://seba-1511.github.io/randopt/">Blog Post</a>]</p>
+            <p>Randopt is a python package to streamline the search for good hyper-parameters. It provides a programmatic interface to serialize, choose, and visualize hyper-parameters and results. [<a href="https://github.com/seba-1511/randopt">GitHub Repo</a>, <a href="https://seba-1511.github.io/randopt/">Website Post</a>]</p>
             <h4 id="paperify.py">Paperify.py</h4>
-            <p>A tool to convert markdown files into beautiful LaTeX docs and web pages. A work in progress. [<a href="http://seba-1511.github.io/config/">Web Demo</a>, <a href="https://github.com/seba-1511/config/tree/master/tex_templates/examples">PDF Examples</a>]</p>
-            <h4 id="quantum-opt">Quantum Opt</h4>
-            <p>Comparing the performance of simulated annealing against a simulation of adiabatic quantum computing on Ising problems. [<a href="https://github.com/seba-1511/quantum_opt">GitHub Repo</a>]</p>
+            <p>A tool to convert markdown files into beautiful LaTeX docs, web pages, and presentations. A work in progress. [<a href="http://seba-1511.github.io/config/">Web Demo</a>, <a href="https://github.com/seba-1511/config/tree/master/tex_templates/examples">PDF Examples</a>]</p>
             <h4 id="tooski">Tooski</h4>
             <p>Simply the best skiing website ever ? [<a href="http://www.tooski.ch/">Website</a>]</p>
             
@@ -198,15 +198,15 @@
         </div> <!-- /container -->
 
         <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
         <!-- Include all compiled plugins (below), or include individual files as needed -->
-        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
         <!--Prism for code highlighting-->
-        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.5.1/prism.js"></script>
-        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.5.1/components/prism-python.min.js"></script>
-        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.5.1/components/prism-c.min.js"></script>
-        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.5.1/components/prism-java.min.js"></script>
+        <script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/prism/1.5.1/prism.js"></script>
+        <script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/prism/1.5.1/components/prism-python.min.js"></script>
+        <script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/prism/1.5.1/components/prism-c.min.js"></script>
+        <script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/prism/1.5.1/components/prism-java.min.js"></script>
 
         <!--MathJax-->
         <script type="text/x-mathjax-config">
@@ -215,15 +215,18 @@
           tex2jax: {inlineMath: [[delim, delim], ['\\(','\\)']]}
         });
         </script>
-        <script src='https://cdn.rawgit.com/mathjax/MathJax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML'></script>
+        <script src='http://cdn.rawgit.com/mathjax/MathJax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML'></script>
 
         <!--KaTeX JavaScript-->
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.6.0/katex.min.js"></script>
-        <!--<script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.6.0/contrib/auto-render.min.js"></script>-->
+        <script src="http://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.6.0/katex.min.js"></script>
+        <!--<script src="http://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.6.0/contrib/auto-render.min.js"></script>-->
 
         <!--Pseudocode.js-->
-        <script src="https://cdn.rawgit.com/seba-1511/cdn/master/pseudocode.js/pseudocode.min.js"></script>
-        <!--<script src="https://rawgit.com/seba-1511/cdn/master/pseudocode.js/pseudocode.min.js"></script>-->
+        <script src="http://cdn.rawgit.com/seba-1511/cdn/master/pseudocode.js/pseudocode.min.js"></script>
+        <!--<script src="http://rawgit.com/seba-1511/cdn/master/pseudocode.js/pseudocode.min.js"></script>-->
+
+        <!--Viz.js for dot graphs-->
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/viz.js/1.8.0/viz-lite.js"></script>
 
         <!--Custom scripting-->
         <script type="text/javascript">
@@ -246,6 +249,18 @@
             // MathJax.Hub.Queue(["Typeset", MathJax.Hub, math]);
             MathJax.Hub.Queue([math, ]);
             Prism.highlightAll(false);
+
+            // Parse and render graphs using Viz.js
+            var dotElems = document.querySelectorAll('div.vizdot');
+            var i, content, image;
+            for (i=0; i < dotElems.length; i++) {
+                content = dotElems[i].textContent;
+                image = Viz(content, {
+                    format: 'png-image-element',
+                });
+                dotElems[0].innerHTML = "";
+                dotElems[i].appendChild(image);
+            }
 
             // The following uses pseudocode.js to render algorithms
             var i, content, container;
@@ -274,7 +289,7 @@
           (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
           (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
           m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-          })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+          })(window,document,'script','http://www.google-analytics.com/analytics.js','ga');
           ga('create', 'UA-68693545-3', 'auto');
           ga('send', 'pageview');
         </script>

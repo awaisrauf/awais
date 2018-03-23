@@ -103,6 +103,26 @@ Development of the leading French-speaking skiing website, and its magazine
 
 *S. Arnold*, Technical Report, 2016, Arxiv Preprint
 
+# Presentations
+
+#### Managing Machine Learning Experiments
+
+*S. Arnold*, Poster, 2018, PyCon18 (to be presented)
+
+#### Managing Machine Learning Experiments
+
+*S. Arnold*, Talk, 2018, Fund3 - Hong Kong
+
+#### Optimization and Policy Gradients
+
+*S. Arnold*, Talk, 2017, Fund3 - Los Angeles
+
+# Press Coverage
+
+#### The Quest To Make A Robotic Cat Walk with Artificial Neurons
+
+*M. Simon*, WIRED, March 2018 
+
 # Awards
 
 * **USC Senior Award for Excellence in Mathematics**: Honorable Mention
