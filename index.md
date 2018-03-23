@@ -43,7 +43,7 @@ Matt Simon from WIRED brilliantly covered our work on Kleo the robotic cat from 
 <br />
 
 #### Randopt at PyCon18
-Randopt was accepted as a poster presentation to PyCon18. For the occasion, I am revamped the website and documentation. See you in Cleveland ! [[Website](https://seba-1511.github.io/randopt/)]
+Randopt was accepted as a poster presentation to PyCon18. For the occasion, I am revamping the website and documentation. See you in Cleveland ! [[Website](https://seba-1511.github.io/randopt/), [wiki](https://github.com/seba-1511/randopt/wiki)]
 
 <br />
 
