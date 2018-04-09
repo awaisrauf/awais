@@ -13,7 +13,7 @@ a, a:hover {
 <div class="col-md-10 col-md-offset-0 row" style="margin-top:10px;">
 <div class="col-md-7" style="text-align:justify;margin-top:25px;font-size:12pt;">
 
-I am a doctoral student in the [Theoretical and Emprical Data Science Lab](http://www.teds.usc.edu/) supervised by Fei Sha. My reserch topic lies at the intersection of optimization and reinforcement learning.
+I am a doctoral student in the [Theoretical and Emprical Data Science Lab](http://www.teds.usc.edu/) supervised by Fei Sha. My research topic lies at the intersection of optimization and reinforcement learning.
 
 I did my undergraduate at the [University of Southern California](http://www.usc.edu), double majoring in Computer Science and Mathematics. My research focused on [machine learning](http://valerolab.org/), distributed systems, and [mathematical optimization](http://dornsife.usc.edu/labs/msl/).
 
