@@ -12,7 +12,7 @@ a, a:hover {
 
 <ul style="display:flex;justify-content:space-between;list-style-type:none;">
 <li><a href="projects/">Projects</a></li>
-<li><a href="papers/">Publications</a></li>
+<li><a href="papers/">Papers</a></li>
 <li><a href="presentations/">Presentations</a></li>
 <li><a href="posters/">Posters</a></li>
 </ul>

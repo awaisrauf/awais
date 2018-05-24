@@ -1,4 +1,4 @@
-% Papers
+% Posters
 % Séb Arnold
 % May 22, 2018
 
