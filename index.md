@@ -37,6 +37,12 @@ I also like skiing ([a lot](http://www.tooski.ch)).
 
 # News
 
+#### Randopt at SoCal Python Meetup
+On Tuesday May 29, I will be presenting Randopt at the SoCal Python Meetup. [[Event](https://www.meetup.com/socalpython/events/250883803/), [Randopt](https://github.com/seba-1511/randopt)]
+
+<br />
+
+
 #### WIRED Article on Kleo
 Matt Simon from WIRED brilliantly covered our work on Kleo the robotic cat from the ValeroLab ! [[Article](https://www.wired.com/story/the-quest-to-make-a-robot-cat-walk-with-artificial-neurons/)]
 
@@ -44,12 +50,6 @@ Matt Simon from WIRED brilliantly covered our work on Kleo the robotic cat from 
 
 #### Randopt at PyCon18
 Randopt was accepted as a poster presentation to PyCon18. For the occasion, I am revamping the website and documentation. See you in Cleveland ! [[Website](https://seba-1511.github.io/randopt/), [wiki](https://github.com/seba-1511/randopt/wiki)]
-
-<br />
-
-#### PyTorch Distributed Tutorial
-I just published an official tutorial on the distributed package of PyTorch. Thanks to the community for their help in answering my questions ! [[Tutorial](http://pytorch.org/tutorials/intermediate/dist_tuto.html)]
-
 
 <br />
 <br />
