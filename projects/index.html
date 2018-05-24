@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+        <title>Projects - Séb Arnold</title>
+
+        <!-- Bootstrap -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootswatch/3.3.7/sandstone/bootstrap.min.css" />
+
+        <!--Prism for code high-lighting-->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.5.1/themes/prism.min.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.5.1/themes/prism-solarizedlight.css" / >
+
+        <!--KaTeX for fast embedded math-->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.6.0/katex.min.css">
+
+        <!--Pseudocode.js-->
+        <link rel="stylesheet" href="https://cdn.rawgit.com/seba-1511/cdn/master/pseudocode.js/pseudocode.min.css">
+
+
+        <style type="text/css" media="all">
+        /* Space out content a bit */
+        body {
+            padding-top: 20px;
+            padding-bottom: 20px;
+        }
+
+        p {
+            font-size: 16px;
+            text-align: justify;
+        }
+
+        /* Everything but the jumbotron gets side spacing for mobile first views */
+        .header,
+        .footer {
+            padding-right: 15px;
+            padding-left: 15px;
+        }
+
+        /* Custom page header */
+        .header {
+            padding-bottom: 20px;
+            border-bottom: 1px solid #e5e5e5;
+        }
+        /* Make the masthead heading the same height as the navigation */
+        .header h3 {
+            margin-top: 0;
+            margin-bottom: 0;
+            line-height: 40px;
+        }
+
+        img {
+            max-width: 100%;
+        }
+
+        /* Custom page footer */
+        .footer {
+            padding-top: 19px;
+            color: #777;
+            border-top: 1px solid #e5e5e5;
+        }
+
+        /* Customize container */
+        @media (min-width: 768px) {
+            .container {
+                                max-width: 730px;
+                            }
+        }
+        .container-narrow > hr {
+            margin: 30px 0;
+        }
+
+        /* Responsive: Portrait tablets and up */
+        @media screen and (min-width: 768px) {
+            /* Remove the padding we set earlier */
+            .header,
+            .marketing,
+            .footer {
+                padding-right: 0;
+                padding-left: 0;
+            }
+            /* Space out the masthead */
+            .header {
+                margin-bottom: 30px;
+            }
+            /* Remove the bottom border on the jumbotron for visual effect */
+            .jumbotron {
+                border-bottom: 0;
+            }
+        }
+
+        .well {
+            border: 1px solid #767676;
+            width: 157px;
+            max-width: 157px;
+        }
+        .well a {
+            color:#767676;
+            margin-bottom:5px;
+        }
+        .well ul {
+            list-style: none;
+            margin: 0px;
+            padding-left: 10px;
+        }
+        </style>
+
+        <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+        <!--[if lt IE 9]>
+            <script src="//oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+            <script src="//oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+        <![endif]-->
+
+
+        <!--Plotly.js-->
+        <!--Needs to be imported before body, else figs won't load.-->
+        <script src="https://cdn.plot.ly/plotly-1.2.0.min.js"></script>
+
+    </head>
+    <body>
+        <div class="container">
+            <div class="header clearfix">
+                <!--<nav>-->
+                <!--<ul class="nav nav-pills pull-right">-->
+                <!--<li role="presentation" class="active"><a href="#">Home</a></li>-->
+                <!--<li role="presentation"><a href="#">About</a></li>-->
+                <!--<li role="presentation"><a href="#">Contact</a></li>-->
+                <!--</ul>-->
+                <!--</nav>-->
+
+                                <h1 class="text-center">Projects</h1>
+                <h4 class="text-sm text-muted text-center"> by Séb Arnold,  <span style="font-weight:normal;"><i>March 22, 2018</i></span></h4>
+                            </div>
+
+                        <link rel="stylesheet" href="https://bootswatch.com/cosmo/bootstrap.css" />
+            <style>
+            a, a:hover {
+                color: #2AA7E7;
+            }
+            </style>
+            <div id="refs" class="references">
+            
+            </div>
+            
+            <footer class="footer">
+                <p><b>Projects</b> - <i>Séb Arnold</i>, March 22, 2018.</p>
+            </footer>
+
+        </div> <!-- /container -->
+
+        <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <!-- Include all compiled plugins (below), or include individual files as needed -->
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+        <!--Prism for code highlighting-->
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.5.1/prism.js"></script>
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.5.1/components/prism-python.min.js"></script>
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.5.1/components/prism-c.min.js"></script>
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.5.1/components/prism-java.min.js"></script>
+
+        <!--MathJax-->
+        <script type="text/x-mathjax-config">
+        var delim = '\u0024';
+        MathJax.Hub.Config({
+          tex2jax: {inlineMath: [[delim, delim], ['\\(','\\)']]}
+        });
+        </script>
+        <script src='https://cdn.rawgit.com/mathjax/MathJax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML'></script>
+
+        <!--KaTeX JavaScript-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.6.0/katex.min.js"></script>
+        <!--<script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.6.0/contrib/auto-render.min.js"></script>-->
+
+        <!--Pseudocode.js-->
+        <script src="https://cdn.rawgit.com/seba-1511/cdn/master/pseudocode.js/pseudocode.min.js"></script>
+        <!--<script src="https://rawgit.com/seba-1511/cdn/master/pseudocode.js/pseudocode.min.js"></script>-->
+
+        <!--Viz.js for dot graphs-->
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/viz.js/1.8.0/viz-lite.js"></script>
+
+        <!--Custom scripting-->
+        <script type="text/javascript">
+        // Allows prism to work properly
+        jQuery(document).ready(function() {
+            jQuery('.python').addClass('language-python').removeClass('python');
+            jQuery('.javascript').addClass('language-js').removeClass('javascript');
+            jQuery('.c').addClass('language-c').removeClass('c');
+            jQuery('.java').addClass('language-java').removeClass('java');
+            jQuery('.sourceCode').removeClass('sourceCode');
+            jQuery('table').addClass('table table-striped table-bordered');
+            jQuery('img').addClass('img-responsive');
+            // renderMathInElement(document.body, {
+            //     displayMode: false,
+            //     throwOnError: false,
+            //     errorColor: '#cc0000',
+            // });
+
+            var math = document.getElementsByClassName("math");
+            // MathJax.Hub.Queue(["Typeset", MathJax.Hub, math]);
+            MathJax.Hub.Queue([math, ]);
+            Prism.highlightAll(false);
+
+            // Parse and render graphs using Viz.js
+            var dotElems = document.querySelectorAll('div.vizdot');
+            var i, content, image;
+            for (i=0; i < dotElems.length; i++) {
+                content = dotElems[i].textContent;
+                image = Viz(content, {
+                    format: 'png-image-element',
+                });
+                dotElems[0].innerHTML = "";
+                dotElems[i].appendChild(image);
+            }
+
+            // The following uses pseudocode.js to render algorithms
+            var i, content, container;
+            var pseudocodeElems = document.querySelectorAll('pre.algo code');
+            var parents = document.querySelectorAll('pre.algo');
+            var displayOptions = {
+                indentSize: '1.5em',
+                commentDelimiter: '//',
+                lineNumber: true,
+                lineNumberPunc: ':',
+                noEnd: true,
+                captionCount: 1,
+                throwOnError: false,
+            };
+            for (i=0; i < pseudocodeElems.length; i++) {
+                content = pseudocodeElems[i].textContent;
+                container = document.createElement('div');
+                parents[i].parentNode.insertBefore(container, parents[i]);
+                pseudocode.render(content, container, displayOptions);
+                parents[i].style.display = 'none';
+                parents[i].parentNode.removeChild(parents[i]);
+            }
+        });
+        </script>
+        <script>
+          (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+          (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+          m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+          })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+          ga('create', 'UA-68693545-3', 'auto');
+          ga('send', 'pageview');
+        </script>
+
+    </body>
+</html>

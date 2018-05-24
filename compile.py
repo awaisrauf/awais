@@ -13,6 +13,18 @@ if __name__ == '__main__':
     webpage = ['paperify.py', 'index.md', 'web']
     call(webpage)
 
+    posters = ['paperify.py', 'posters/index.md', 'web']
+    call(posters)
+
+    papers = ['paperify.py', 'papers/index.md', 'web']
+    call(papers)
+
+    presentations = ['paperify.py', 'presentations/index.md', 'web']
+    call(presentations)
+
+    projects = ['paperify.py', 'projects/index.md', 'web']
+    call(projects)
+
     resume = ['pandoc',
               cwd + '/resume.md',
               '-s',

@@ -1,6 +1,6 @@
-% Dispun
-% Seb Arnold, Fei Sha, Chunming Wang
-% November 27, 2017
+% Presentations
+% Séb Arnold
+% March 22, 2018
 
 <link rel="stylesheet" href="https://bootswatch.com/cosmo/bootstrap.css" />
 <style>
@@ -8,5 +8,3 @@ a, a:hover {
     color: #2AA7E7;
 }
 </style>
-
-# Welcome to the Dispun page

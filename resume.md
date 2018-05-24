@@ -37,6 +37,10 @@ High-school degree, with an emphasis on Mathematics and Physics.
 ### Doctoral Student - Advisor: Prof. Fei Sha
 Research topic: Optimization and Reinforcement Learning.
 
+## Montreal Institute for Learning Algorithms - U. de Montreal \hfill{June 2018 - Present}
+### Visiting Researcher - Host: Prof. Ioannis Mitliagkas
+Research direction: Momentum in Optimization.
+
 ## Brain-Body Dynamics Lab - USC \hfill{July 2016 - August 2017}
 ### Undergraduate Researcher - Advisor: Prof. Francisco Valero-Cuevas
 Investigating deep reinforcement learning algorithms for simulated, robotic, and cadaveric hand control.
@@ -107,7 +111,7 @@ Development of the leading French-speaking skiing website, and its magazine
 
 #### Managing Machine Learning Experiments
 
-*S. Arnold*, Poster, 2018, PyCon18 (to be presented)
+*S. Arnold*, Talk, 2018, SoCal Python Meetup (to be presented)
 
 #### Managing Machine Learning Experiments
 
