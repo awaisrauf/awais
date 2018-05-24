@@ -1,6 +1,6 @@
 % Dispun
 % Seb Arnold, Fei Sha, Chunming Wang
-% November 27, 2017
+% none
 
 <link rel="stylesheet" href="https://bootswatch.com/cosmo/bootstrap.css" />
 <style>

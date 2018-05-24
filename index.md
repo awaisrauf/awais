@@ -1,6 +1,6 @@
 % Home
 % Séb Arnold
-% March 22, 2018
+% May 22, 2018
 
 <link rel="stylesheet" href="https://bootswatch.com/cosmo/bootstrap.css" />
 <style>
@@ -8,6 +8,15 @@ a, a:hover {
     color: #2AA7E7;
 }
 </style>
+
+
+<ul style="display:flex;justify-content:space-between;list-style-type:none;">
+<li><a href="projects/">Projects</a></li>
+<li><a href="papers/">Publications</a></li>
+<li><a href="presentations/">Presentations</a></li>
+<li><a href="posters/">Posters</a></li>
+</ul>
+
 
 <div class="container header-margin">
 <div class="col-md-10 col-md-offset-0 row" style="margin-top:10px;">
@@ -47,47 +56,5 @@ On Tuesday May 29, I will be presenting Randopt at the SoCal Python Meetup. [[Ev
 Matt Simon from WIRED brilliantly covered our work on Kleo the robotic cat from the ValeroLab ! [[Article](https://www.wired.com/story/the-quest-to-make-a-robot-cat-walk-with-artificial-neurons/)]
 
 <br />
-
-#### Randopt at PyCon18
-Randopt was accepted as a poster presentation to PyCon18. For the occasion, I am revamping the website and documentation. See you in Cleveland ! [[Website](https://seba-1511.github.io/randopt/), [wiki](https://github.com/seba-1511/randopt/wiki)]
-
 <br />
 <br />
-<br />
-
-# Publications
-
-#### Shapechanger: Environments for Transfer Learning
-*S. Arnold, E. Pun, T. Denisart, F. Valero-Cuevas*, 2017, SoCal Robotics Symposium [[ArXiv](https://arxiv.org/abs/1709.05070), [pdf](https://arxiv.org/pdf/1709.05070), [website](http://seba-1511.github.io/shapechanger)]
-
-<br />
-
-#### Accelerating SGD for Distributed Deep Learning Using an Approximated Hessian Matrix
-*S. Arnold, C. Wang*, 2017, ICLR Workshop [[ArXiv](https://arxiv.org/abs/1709.05069), [pdf](https://arxiv.org/pdf/1709.05069)]
-
-<br />
-
-#### A Performance Comparison between TRPO and CEM for Reinforcement Learning
-*S. Arnold, E. Chu, F. Valero-Cuevas*, 2016, SoCal ML Symposium
-
-<br />
-
-#### A Greedy Algorithm to Cluster Specialists
-S. Arnold, 2016, *ArXiv Pre-prints* [[ArXiv](https://arxiv.org/abs/1609.03666), [pdf](https://arxiv.org/pdf/1609.03666)]
-
-
-<br />
-<br />
-<br />
-
-# Projects
-
-#### Randopt
-Randopt is a python package to streamline the search for good hyper-parameters. It provides a programmatic interface to serialize, choose, and visualize hyper-parameters and results. [[GitHub Repo](https://github.com/seba-1511/randopt), [Website Post](https://seba-1511.github.io/randopt/)] 
-
-#### Paperify.py
-A tool to convert markdown files into beautiful LaTeX docs, web pages, and presentations. A work in progress. [[Web Demo](http://seba-1511.github.io/config/), [PDF Examples](https://github.com/seba-1511/config/tree/master/tex_templates/examples)]
-
-#### Tooski
-Simply the best skiing website ever ? [[Website](http://www.tooski.ch/)]
-
