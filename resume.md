@@ -38,7 +38,7 @@ High-school degree, with an emphasis on Mathematics and Physics.
 Research topic: Optimization and Reinforcement Learning.
 
 ## Montreal Institute for Learning Algorithms - U. de Montreal \hfill{June 2018 - Present}
-### Visiting Researcher - Host: Prof. Ioannis Mitliagkas
+### Visiting Researcher - Advisor: Prof. Ioannis Mitliagkas
 Research direction: Momentum in Optimization.
 
 ## Brain-Body Dynamics Lab - USC \hfill{July 2016 - August 2017}
@@ -52,7 +52,7 @@ Investigating second order optimization methods for distributed deep learning.
 ## Information Science Institute - USC \hfill{January 2015 - December 2015}
 ### Research Assistant - Advisor: Prof. Greg Ver Steeg 
 Research in quantum optimization of Ising models, and quantum machine learning within the group of
-Prof. Dr. Daniel Lidar.
+Prof. Daniel Lidar.
 
 ## Computational Social Science - ETHZ \hfill{June 2012 - January 2014}
 ### Research Assistant - Advisor: Dr. Stefano Balietti 
@@ -71,7 +71,7 @@ Development of distributed deep learning library and project in distributed deep
 reinforcement learning.
 
 ## Schneeberger AG \hfill{May 2014 - November 2014}
-### Lead Developer 
+### Lead Engineer 
 Development of a financial management tool for an international usage. Engineering
 leader in a team of 4.
 
@@ -111,7 +111,7 @@ Development of the leading French-speaking skiing website, and its magazine
 
 #### Managing Machine Learning Experiments
 
-*S. Arnold*, Talk, 2018, SoCal Python Meetup (to be presented)
+*S. Arnold*, Talk, 2018, SoCal Python Meetup - Los Angeles
 
 #### Managing Machine Learning Experiments
 
@@ -129,8 +129,8 @@ Development of the leading French-speaking skiing website, and its magazine
 
 # Awards
 
-* **USC Senior Award for Excellence in Mathematics**: Honorable Mention
-* **USC Undergraduate Research Project**: $2^{\text{nd}}$ Place in Mathematics, Physics, and Engineering 
+* **USC Senior Award for Excellence in Mathematics**: Honorable Mention, 2017
+* **USC Undergraduate Research Project**: $2^{\text{nd}}$ Place in Mathematics, Physics, and Engineering, 2017
 * **David Wiesen Scholarship**: 2016
 * **USC Summer Undergraduate Research Fellowship**: 2016
 * **Microsoft Tuition Scholarship**: Finalist, 2016
