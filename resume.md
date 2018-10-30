@@ -5,40 +5,33 @@
 
 # Education
 
-## University of Southern California \hfill{August 2017 - Present}
-### Ph.D. Computer Science
-Under the supervision of Prof. Fei Sha. Research topic: Optimization and Reinforcement Learning. 
+## Ph.D. Computer Science
+University of Southern California \hfill{\large\textbf{August 2017 - Present}}
 
-## University of Southern California \hfill{August 2014 - August 2017}
-### BS. Computer Science & BA. Mathematics (with honors)
-CS honors society member & Society of Women in Engineering member.
+## BS. Computer Science & BA. Mathematics (with honors)
+University of Southern California \hfill{\large\textbf{August 2014 - August 2017}}
 
-## ETH Zürich \hfill{September 2011 - August 2013}
-### BS. Computer Science (dropout) 
-German-based instruction, advanced class in
-parallel and distributed computing, machine learning project with Yuxin Chen, PhD
-student of Prof. Andreas Krause.
+## BS. Computer Science (dropout) 
+ETH Zürich \hfill{\large\textbf{September 2011 - August 2013}}
 
-## Stanford University \hfill{June 2011 - August 2011}
-### High-School Summer Semester
-Opportunity for high-school students to take undergraduate classes.
+## High-School Summer Semester
+Stanford University \hfill{\large\textbf{June 2011 - August 2011}}
 
-## Gymnase Auguste-Piccard \hfill{August 2008 - August 2011}
-### Maturité Fédérale
-High-school degree, with an emphasis on Mathematics and Physics.
+## Maturité Fédérale
+Gymnase Auguste-Piccard \hfill{\large\textbf{August 2008 - August 2011}}
 
 
 \hfill{}
 \hfill{}
 
-# Research Experience
+# Research
 
-## Theoretical and Empirical Data Science Lab - USC \hfill{August 2017 - Present}
+## Shalab - USC \hfill{August 2017 - Present}
 ### Doctoral Student - Advisor: Prof. Fei Sha
 Research topic: Optimization and Reinforcement Learning.
 
-## Montreal Institute for Learning Algorithms - U. de Montreal \hfill{June 2018 - Present}
-### Visiting Researcher - Advisor: Prof. Ioannis Mitliagkas
+## Mila - U. de Montreal \hfill{June 2018 - September 2018}
+### Visiting Researcher - Host: Prof. Ioannis Mitliagkas
 Research direction: Momentum in Optimization.
 
 ## Brain-Body Dynamics Lab - USC \hfill{July 2016 - August 2017}
@@ -50,35 +43,44 @@ Investigating deep reinforcement learning algorithms for simulated, robotic, and
 Investigating second order optimization methods for distributed deep learning.
 
 ## Information Science Institute - USC \hfill{January 2015 - December 2015}
-### Research Assistant - Advisor: Prof. Greg Ver Steeg 
-Research in quantum optimization of Ising models, and quantum machine learning within the group of
-Prof. Daniel Lidar.
+### Research Assistant - Advisors: Prof. Greg Ver Steeg, Prof. Itay Hen
+Comparison of classical and adiabatic quantum optimization of Ising models, and introduction to quantum machine learning.
 
 ## Computational Social Science - ETHZ \hfill{June 2012 - January 2014}
 ### Research Assistant - Advisor: Dr. Stefano Balietti 
-Development of sociological experiments with JavaScript and PHP. Project received
-appraisal from the European Commission and fundings for coming years.
+Development of multi-user, real-time sociological experiments.
+Project received appraisal from the European Commission and fundings for coming years.
 
 
 \hfill{}
 \hfill{}
 
-# Industry Experience
+# Industry
 
 ## Nervana Systems \hfill{August 2015 - August 2016}
 ### Algorithm Intern - Advisor: Dr. Arjun Bansal 
-Development of distributed deep learning library and project in distributed deep
+Development of distributed deep learning library and research project in distributed deep
 reinforcement learning.
 
 ## Schneeberger AG \hfill{May 2014 - November 2014}
 ### Lead Engineer 
-Development of a financial management tool for an international usage. Engineering
-leader in a team of 4.
+Development of a financial management tool for an international usage.
+Engineering leader in a team of 4.
 
 ## Tooski \hfill{January 2009 - Present}
 ### Founder
 Development of the leading French-speaking skiing website, and its magazine
 *Angulation*.
+
+
+\hfill{}
+\hfill{}
+
+
+# Teaching
+## University of Southern California \hfill{Fall 2018}
+### Teaching assistant
+Leading discussion sections, designing project assignments, and guest lecture on reinforcement learning.
 
 
 \hfill{}
@@ -121,7 +123,7 @@ Development of the leading French-speaking skiing website, and its magazine
 
 *S. Arnold*, Talk, 2017, Fund3 - Los Angeles
 
-# Press Coverage
+# Press
 
 #### The Quest To Make A Robotic Cat Walk with Artificial Neurons
 
@@ -139,6 +141,9 @@ Development of the leading French-speaking skiing website, and its magazine
 * **USC Dean's List**: 2014, 2015, 2016
 * **HackSC Winner - Microsoft Category**: 2014
 
+# Memberships
+
+* Society of Women in Engineering, USC Chapter
 
 # Languages
 
@@ -152,4 +157,4 @@ Development of the leading French-speaking skiing website, and its magazine
 
 * **Ski**: Throughout my highschool and part of my university studies, I was lucky to race across the Alps on the FIS circuit with the best regional Swiss skiers. This longstanding passion spawned Tooski, and I was once ranked among the best 2'000 racers worldwide.
 * **Mathematics**: I am generally interested in mathematics, and more specifically in optimization and stochastic models. I like to apply them to all kinds of problems, especially the ones related to artificial intelligence.
-* **Computing**: I have been programming since the age of 14, and have studied different computational hardwares such as GPUs, D-Wave, and HPC Clusters.
+* **Computing**: I have been programming since my early teens, and have studied different computational hardwares such as GPUs, D-Wave, and HPC clusters.
