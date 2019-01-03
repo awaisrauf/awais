@@ -38,12 +38,22 @@ Tooski began as an adventure in merging two of my passions: computers and skiing
 
 <br />
 
+<img src="/images/ppt.png"
+     class="float-right"
+     alt="PPT"
+     style="max-width:43px;float:right;margin:0px;" />
+
 ## Python Performance Tuner
 The Python Performance Tuner (PPT) is a Python toolbox to help you benchmark and tune your Python scripts.
 Currently in active development, it is available in beta via pip: `pip install ppt`.
 An official open-source release will happen when the tool has matured.
 
 <br />
+
+<img src="/images/plotify-logo.png"
+     class="float-right"
+     alt="Plotify & Paperify"
+     style="max-width:37px;float:right;margin:0px;" />
 
 ## Paperify & Plotify
 A tool to convert markdown files into beautiful LaTeX docs, web pages, and presentations.
