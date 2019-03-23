@@ -141,6 +141,45 @@
                 <h4 class="text-sm text-muted text-center"> by Séb Arnold,  <span style="font-weight:normal;"><i>May 22, 2018</i></span></h4>
                             </div>
 
+            <!-- Define custom latex macros. -->
+            \(
+
+% Universal Mathematics
+\newcommand{\paren}[1]{\left( #1 \right)}
+\newcommand{\brackets}[1]{\left[ #1 \right]}
+\newcommand{\braces}[1]{\left\{ #1 \right\}}
+\newcommand{\norm}[1]{\left\lVert#1\right\rVert}
+\newcommand{\case}[1]{\begin{cases} #1 \end{cases}}
+\newcommand{\bigO}[1]{\mathcal{O}\left(#1\right)}
+
+% Analysis
+
+% Linear Algebra
+\newcommand{\mat}[1]{\begin{pmatrix}#1\end{pmatrix}}
+\newcommand{\bmat}[1]{\begin{bmatrix}#1\end{bmatrix}}
+
+% Probability Theory
+\DeclareMathOperator*{\V}{\mathop{\mathrm{Var}}}
+\DeclareMathOperator*{\E}{\mathop{\mathbb{E}}}
+\newcommand{\Exp}[2][]{\E_{#1}\brackets{#2}}
+\newcommand{\Var}[2][]{\V_{#1}\brackets{#2}}
+\newcommand{\Cov}[2][]{\mathop{\mathrm{Cov}}_{#1}\brackets{#2}}
+
+% Optimization
+\newcommand{\minimize}{\operatorname*{minimize}}
+\newcommand{\maximize}{\operatorname*{maximize}}
+\DeclareMathOperator*{\argmin}{arg\,min}
+\DeclareMathOperator*{\argmax}{arg\,max}
+
+% Set Theory
+\newcommand{\C}{\mathbb{C}}
+\newcommand{\N}{\mathbb{N}}
+\newcommand{\Q}{\mathbb{Q}}
+\newcommand{\R}{\mathbb{R}}
+\newcommand{\Z}{\mathbb{Z}}
+
+            \)
+
                         <link rel="stylesheet" href="https://bootswatch.com/cosmo/bootstrap.css" />
             <style>
             a, a:hover {

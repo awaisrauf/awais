@@ -32,7 +32,7 @@ Research topic: Optimization and Reinforcement Learning.
 
 ## Mila - U. de Montreal \hfill{June 2018 - September 2018}
 ### Visiting Researcher - Host: Prof. Ioannis Mitliagkas
-Research direction: Momentum in Optimization.
+Research topic: Variance reduction in online stochastic optimization.
 
 ## Brain-Body Dynamics Lab - USC \hfill{July 2016 - August 2017}
 ### Undergraduate Researcher - Advisor: Prof. Francisco Valero-Cuevas
@@ -80,7 +80,7 @@ Development of the leading French-speaking skiing website, and its magazine
 # Teaching
 ## University of Southern California \hfill{Fall 2018}
 ### Teaching assistant
-Leading discussion sections, designing project assignments, and guest lecture on reinforcement learning.
+Leading discussion sections, designing project assignments and exams, and a guest lecture on reinforcement learning.
 
 
 \hfill{}
@@ -88,6 +88,10 @@ Leading discussion sections, designing project assignments, and guest lecture on
 
 
 # Writings
+
+#### Understanding the Variance of Policy Gradient Estimators in Reinforcement Learning
+
+*S. Arnold, J.A. Preiss, C-Y. Wei, M. Kloft*, 2019, SoCal ML Symposium, **Best Poster Award**
 
 #### Writing Distributed Applications with PyTorch
 
@@ -110,6 +114,10 @@ Leading discussion sections, designing project assignments, and guest lecture on
 *S. Arnold*, Technical Report, 2016, Arxiv Preprint
 
 # Presentations
+
+#### Introduction to Reinforcement Learning
+
+*S. Arnold*, Guest Lecture, 2018, CSCI467, USC - Los Angeles
 
 #### Managing Machine Learning Experiments
 
@@ -150,8 +158,6 @@ Leading discussion sections, designing project assignments, and guest lecture on
 * **Bilingual**: French, Italian
 * **Proficient**: English, German
 * **Basic**: Spanish
-
-
 
 # Interests
 
