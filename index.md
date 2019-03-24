@@ -47,6 +47,8 @@ I also like skiing ([a lot](http://www.tooski.ch)).
 
 # News
 
+Note: Those news are rather old by now.
+
 #### Randopt at SoCal Python Meetup
 On Tuesday May 29, I will be presenting Randopt at the SoCal Python Meetup. [[Event](https://www.meetup.com/socalpython/events/250883803/), [Randopt](https://github.com/seba-1511/randopt)]
 
