@@ -138,8 +138,47 @@
                 <!--</nav>-->
 
                                 <h1 class="text-center">Posts</h1>
-                <h4 class="text-sm text-muted text-center"> by Seb Arnold,  <span style="font-weight:normal;"><i>February 28, 2019</i></span></h4>
+                <h4 class="text-sm text-muted text-center"> by Seb Arnold,  <span style="font-weight:normal;"><i>April 04, 2019</i></span></h4>
                             </div>
+
+            <!-- Define custom latex macros. -->
+            \(
+
+% Universal Mathematics
+\newcommand{\paren}[1]{\left( #1 \right)}
+\newcommand{\brackets}[1]{\left[ #1 \right]}
+\newcommand{\braces}[1]{\left\{ #1 \right\}}
+\newcommand{\norm}[1]{\left\lVert#1\right\rVert}
+\newcommand{\case}[1]{\begin{cases} #1 \end{cases}}
+\newcommand{\bigO}[1]{\mathcal{O}\left(#1\right)}
+
+% Analysis
+
+% Linear Algebra
+\newcommand{\mat}[1]{\begin{pmatrix}#1\end{pmatrix}}
+\newcommand{\bmat}[1]{\begin{bmatrix}#1\end{bmatrix}}
+
+% Probability Theory
+\DeclareMathOperator*{\V}{\mathop{\mathrm{Var}}}
+\DeclareMathOperator*{\E}{\mathop{\mathbb{E}}}
+\newcommand{\Exp}[2][]{\E_{#1}\brackets{#2}}
+\newcommand{\Var}[2][]{\V_{#1}\brackets{#2}}
+\newcommand{\Cov}[2][]{\mathop{\mathrm{Cov}}_{#1}\brackets{#2}}
+
+% Optimization
+\newcommand{\minimize}{\operatorname*{minimize}}
+\newcommand{\maximize}{\operatorname*{maximize}}
+\DeclareMathOperator*{\argmin}{arg\,min}
+\DeclareMathOperator*{\argmax}{arg\,max}
+
+% Set Theory
+\newcommand{\C}{\mathbb{C}}
+\newcommand{\N}{\mathbb{N}}
+\newcommand{\Q}{\mathbb{Q}}
+\newcommand{\R}{\mathbb{R}}
+\newcommand{\Z}{\mathbb{Z}}
+
+            \)
 
                         <blockquote>
             <p>A maximum of three paragraphs a week.</p>
@@ -150,7 +189,7 @@
             </ul>
             
             <footer class="footer">
-                <p><b>Posts</b> - <i>Seb Arnold</i>, February 28, 2019.</p>
+                <p><b>Posts</b> - <i>Seb Arnold</i>, April 04, 2019.</p>
             </footer>
 
         </div> <!-- /container -->
@@ -170,10 +209,15 @@
         <script type="text/x-mathjax-config">
         var delim = '\u0024';
         MathJax.Hub.Config({
-          tex2jax: {inlineMath: [[delim, delim], ['\\(','\\)']]}
+          tex2jax: {inlineMath: [[delim, delim], ['\\(','\\)']]},
+          jax: ["input/TeX","output/SVG", "output/PreviewHTML"],
+          extensions: ["tex2jax.js","MathMenu.js","MathZoom.js", "fast-preview.js", "AssistiveMML.js", "a11y/accessibility-menu.js"],
+          TeX: {
+            extensions: ["AMSmath.js","AMSsymbols.js","noErrors.js","noUndefined.js"]
+          }
         });
         </script>
-        <script src='https://cdn.rawgit.com/mathjax/MathJax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML'></script>
+        <script src='https://cdn.rawgit.com/mathjax/MathJax/2.7.1/MathJax.js?config=default'></script>
 
         <!--KaTeX JavaScript-->
         <script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.6.0/katex.min.js"></script>

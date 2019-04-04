@@ -192,6 +192,9 @@
             <h4 id="accelerating-sgd-for-distributed-deep-learning-using-approximated-hessian-matrix">Accelerating SGD for Distributed Deep Learning Using Approximated Hessian Matrix</h4>
             <p>Approximating the Hessian via finite differences in the distributed setting. ICLR17 Workshop. [<a href="dispun_iclr17.pdf">pdf</a>]</p>
             <p><br /></p>
+            <div id="refs" class="references">
+            
+            </div>
             
             <footer class="footer">
                 <p><b>Posters</b> - <i>Séb Arnold</i>, May 22, 2018.</p>
@@ -214,10 +217,15 @@
         <script type="text/x-mathjax-config">
         var delim = '\u0024';
         MathJax.Hub.Config({
-          tex2jax: {inlineMath: [[delim, delim], ['\\(','\\)']]}
+          tex2jax: {inlineMath: [[delim, delim], ['\\(','\\)']]},
+          jax: ["input/TeX","output/SVG", "output/PreviewHTML"],
+          extensions: ["tex2jax.js","MathMenu.js","MathZoom.js", "fast-preview.js", "AssistiveMML.js", "a11y/accessibility-menu.js"],
+          TeX: {
+            extensions: ["AMSmath.js","AMSsymbols.js","noErrors.js","noUndefined.js"]
+          }
         });
         </script>
-        <script src='https://cdn.rawgit.com/mathjax/MathJax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML'></script>
+        <script src='https://cdn.rawgit.com/mathjax/MathJax/2.7.1/MathJax.js?config=default'></script>
 
         <!--KaTeX JavaScript-->
         <script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.6.0/katex.min.js"></script>
