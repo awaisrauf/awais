@@ -1,6 +1,6 @@
-% Home
 % Séb Arnold
-% May 5, 2019
+%
+% Updated June 1, 2019
 
 <link rel="stylesheet" href="https://bootswatch.com/cosmo/bootstrap.css" />
 <style>
@@ -13,7 +13,7 @@ a, a:hover {
 <ul style="display:flex;justify-content:space-between;list-style-type:none;">
 <li><a href="projects/">Projects</a></li>
 <li><a href="papers/">Papers</a></li>
-<li><a href="posts/">Posts</a></li>
+<!--<li><a href="posts/">Posts</a></li> -->
 <li><a href="presentations/">Presentations</a></li>
 <li><a href="posters/">Posters</a></li>
 </ul>

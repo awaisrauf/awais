@@ -9,7 +9,7 @@ a, a:hover {
 }
 </style>
 
-#### Managing Machine Learning Experiments
+**Managing Machine Learning Experiments**
 
 Presentation of randopt and how to use it to manage machine learning experiments. Presented at SoCal Python Meetup. [[pdf](MMLE_socal.pdf)]
 

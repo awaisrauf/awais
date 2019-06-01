@@ -10,6 +10,7 @@ a, a:hover {
 </style>
 
 
+
 <img src="/images/randopt_dice.png"
      class="float-right"
      alt="Randopt"
@@ -23,6 +24,9 @@ You can install it with `pip install randopt`.
 [[GitHub Repo](https://github.com/seba-1511/randopt), [randopt.ml](http://www.randopt.ml)] 
 
 <br />
+
+
+
 
 <img src="/images/tooski.png"
      class="float-right"
@@ -38,6 +42,10 @@ Tooski began as an adventure in merging two of my passions: computers and skiing
 
 <br />
 
+
+
+
+<!--
 <img src="/images/ppt.png"
      class="float-right"
      alt="PPT"
@@ -49,7 +57,11 @@ Currently in active development, it is available in beta via pip: `pip install p
 An official open-source release will happen when the tool has matured.
 
 <br />
+ -->
 
+
+
+<!--
 <img src="/images/plotify-logo.png"
      class="float-right"
      alt="Plotify & Paperify"
@@ -63,6 +75,9 @@ A work in progress, available in beta via `pip install paperify` and `pip instal
 [[Web Demo](http://seba-1511.github.io/config/), [PDF Example](http://seba-1511.github.io/summaries/discrete_mathematics/dm.pdf)]
 
 <br />
+ -->
+
+
 
 ## Kleo the Cat
 

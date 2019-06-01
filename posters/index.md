@@ -10,14 +10,19 @@ a, a:hover {
 </style>
 
 
-#### Managing Machine Learning Experiments
+**Managing Machine Learning Experiments**
 
-How to use randopt to manage machine learning experiments. [[pdf](MMLE_pycon.pdf)]
+How to use randopt to manage machine learning experiments.
+
+[[pdf](MMLE_pycon.pdf)]
 
 <br />
 
-#### Accelerating SGD for Distributed Deep Learning Using Approximated Hessian Matrix
 
-Approximating the Hessian via finite differences in the distributed setting. ICLR17 Workshop. [[pdf](dispun_iclr17.pdf)]
+**Accelerating SGD for Distributed Deep Learning Using Approximated Hessian Matrix**
+
+Approximating the Hessian via finite differences in the distributed setting. ICLR17 Workshop.
+
+[[pdf](dispun_iclr17.pdf)]
 
 <br />

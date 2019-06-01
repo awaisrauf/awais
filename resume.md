@@ -1,6 +1,6 @@
 % S$\acute{\text{e}}$bastien M. R. Arnold
-% arnolds@usc.edu
-% www.seba1511.com
+% seb.arnold@usc.edu
+% www.seba1511.net
 
 
 # Education

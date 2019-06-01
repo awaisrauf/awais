@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+        <title>Implicit Gradient Transport - </title>
+
+        <!-- Bootstrap -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootswatch/3.3.7/sandstone/bootstrap.min.css" />
+
+        <!--Prism for code high-lighting-->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.5.1/themes/prism.min.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.5.1/themes/prism-solarizedlight.css" / >
+
+        <!--KaTeX for fast embedded math-->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.6.0/katex.min.css">
+
+        <!--Pseudocode.js-->
+        <link rel="stylesheet" href="https://cdn.rawgit.com/seba-1511/cdn/master/pseudocode.js/pseudocode.min.css">
+
+
+        <style type="text/css" media="all">
+        /* Space out content a bit */
+        body {
+            padding-top: 20px;
+            padding-bottom: 20px;
+        }
+
+        p {
+            font-size: 16px;
+            text-align: justify;
+        }
+
+        /* Everything but the jumbotron gets side spacing for mobile first views */
+        .header,
+        .footer {
+            padding-right: 15px;
+            padding-left: 15px;
+        }
+
+        /* Custom page header */
+        .header {
+            padding-bottom: 20px;
+            border-bottom: 1px solid #e5e5e5;
+        }
+        /* Make the masthead heading the same height as the navigation */
+        .header h3 {
+            margin-top: 0;
+            margin-bottom: 0;
+            line-height: 40px;
+        }
+
+        img {
+            max-width: 100%;
+        }
+
+        /* Custom page footer */
+        .footer {
+            padding-top: 19px;
+            color: #777;
+            border-top: 1px solid #e5e5e5;
+        }
+
+        /* Customize container */
+        @media (min-width: 768px) {
+            .container {
+                                max-width: 730px;
+                            }
+        }
+        .container-narrow > hr {
+            margin: 30px 0;
+        }
+
+        /* Responsive: Portrait tablets and up */
+        @media screen and (min-width: 768px) {
+            /* Remove the padding we set earlier */
+            .header,
+            .marketing,
+            .footer {
+                padding-right: 0;
+                padding-left: 0;
+            }
+            /* Space out the masthead */
+            .header {
+                margin-bottom: 30px;
+            }
+            /* Remove the bottom border on the jumbotron for visual effect */
+            .jumbotron {
+                border-bottom: 0;
+            }
+        }
+
+        .well {
+            border: 1px solid #767676;
+            width: 157px;
+            max-width: 157px;
+            background-color: #FDF6E3;
+        }
+        .well a {
+            color:#767676;
+            margin-bottom:5px;
+        }
+        .well ul {
+            list-style: none;
+            margin: 0px;
+            padding-left: 10px;
+        }
+        a, a:hover {
+            color: #2AA7E7;
+        }
+        </style>
+
+        <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+        <!--[if lt IE 9]>
+            <script src="//oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+            <script src="//oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+        <![endif]-->
+
+
+        <!--Plotly.js-->
+        <!--Needs to be imported before body, else figs won't load.-->
+        <script src="https://cdn.plot.ly/plotly-1.2.0.min.js"></script>
+
+    </head>
+    <body>
+        <div class="container">
+            <div class="header clearfix">
+                <!--<nav>-->
+                <!--<ul class="nav nav-pills pull-right">-->
+                <!--<li role="presentation" class="active"><a href="#">Home</a></li>-->
+                <!--<li role="presentation"><a href="#">About</a></li>-->
+                <!--<li role="presentation"><a href="#">Contact</a></li>-->
+                <!--</ul>-->
+                <!--</nav>-->
+
+                                <h1 class="text-center">Implicit Gradient Transport</h1>
+                <h4 class="text-sm text-muted text-center">  <span style="font-weight:normal;"><i>Reducing the variance in online optimization by transporting past gradients</i></span></h4>
+                            </div>
+
+            <div style="display:none;">
+            <!-- Define custom latex macros. -->
+            \(
+
+% Universal Mathematics
+\newcommand{\paren}[1]{\left( #1 \right)}
+\newcommand{\brackets}[1]{\left[ #1 \right]}
+\newcommand{\braces}[1]{\left\{ #1 \right\}}
+\newcommand{\norm}[1]{\left\lVert#1\right\rVert}
+\newcommand{\case}[1]{\begin{cases} #1 \end{cases}}
+\newcommand{\bigO}[1]{\mathcal{O}\left(#1\right)}
+
+% Analysis
+
+% Linear Algebra
+\newcommand{\mat}[1]{\begin{pmatrix}#1\end{pmatrix}}
+\newcommand{\bmat}[1]{\begin{bmatrix}#1\end{bmatrix}}
+
+% Probability Theory
+\DeclareMathOperator*{\V}{\mathop{\mathrm{Var}}}
+\DeclareMathOperator*{\E}{\mathop{\mathbb{E}}}
+\newcommand{\Exp}[2][]{\E_{#1}\brackets{#2}}
+\newcommand{\Var}[2][]{\V_{#1}\brackets{#2}}
+\newcommand{\Cov}[2][]{\mathop{\mathrm{Cov}}_{#1}\brackets{#2}}
+
+% Optimization
+\newcommand{\minimize}{\operatorname*{minimize}}
+\newcommand{\maximize}{\operatorname*{maximize}}
+\DeclareMathOperator*{\argmin}{arg\,min}
+\DeclareMathOperator*{\argmax}{arg\,max}
+
+% Set Theory
+\newcommand{\C}{\mathbb{C}}
+\newcommand{\N}{\mathbb{N}}
+\newcommand{\Q}{\mathbb{Q}}
+\newcommand{\R}{\mathbb{R}}
+\newcommand{\Z}{\mathbb{Z}}
+
+            \)
+            <!-- Define custom latex macros. -->
+            </div>
+
+                        <p>[<a href="">ArXiv</a>, <a href="./preprint_neurips19.pdf">pdf</a>, <a href="https://github.com/seba-1511/igt.pth">code</a>]</p>
+            <h3 id="people">People</h3>
+            <ul>
+            <li><a href="http://seba1511.net">Séb Arnold</a></li>
+            <li><a href="https://scholar.google.ca/citations?user=yc1CqrOpr6kC&amp;hl=en">Pierre-Antoine Manzagol</a></li>
+            <li><a href="https://www.cs.ubc.ca/~rezababa/">Reza Babanezhad</a></li>
+            <li><a href="http://mitliagkas.github.io/">Ioannis Mitliagkas</a></li>
+            <li><a href="http://nicolas.le-roux.name/">Nicolas Le Roux</a></li>
+            </ul>
+            <h3 id="summary">Summary</h3>
+            <div class="col-md-12 row" style="margin-top:10px;">
+            <div class="col-md-5" style="text-align:center;">
+            <img src="./transport.png" style="max-width:250px;height:auto;margin:auto;" alt="Me and motorcycle hair" />
+            <p>
+            <i><small> </small></i>
+            </p>
+            </div>
+            <div class="col-md-7" style="text-align:justify;margin-top:25px;font-size:12pt;">
+            <p>Schematic representation of implicit gradient transport: computing the gradient at an offset parameter value provides a correction used to &quot;transport&quot; a gradient estimate in <span class="math inline">\(\theta_{t-1}\)</span>.</p>
+            </div>
+            </div>
+            <p>Most stochastic optimization methods use gradients once before discarding them. While variance reduction methods have shown that reusing past gradients can be beneficial when there is a finite number of datapoints, they do not easily extend to the online setting. One issue is the staleness due to using past gradients. We propose to correct this staleness using the idea of <em>implicit gradient transport</em> (IGT) which transforms gradients computed at previous iterates into gradients evaluated at the current iterate without using the Hessian explicitly. In addition to reducing the variance and bias of our updates over time, IGT can be used as a drop-in replacement for the gradient estimate in a number of well-understood methods such as heavy ball or Adam. We show experimentally that it achieves state-of-the-art results on a wide range of architectures and benchmarks. Additionally, the IGT gradient estimator yields the optimal asymptotic convergence rate for online stochastic optimization in the restricted setting where the Hessians of all component functions are equal.</p>
+            <p><br /></p>
+            <div class="figure">
+            <img src="./pseudocode.png" alt="Pseudo-code of Heavyball using the IGT gradient estimator." />
+            <p class="caption">Pseudo-code of Heavyball using the IGT gradient estimator.</p>
+            </div>
+            <!--
+            ### Contributions
+            
+            1. We propose a gradient estimator which uses all previous stochastic gradients computed at specific points to jointly minimize the bias and variance. We show how replacing the stochastic gradient with this estimator leads to a converging algorithm with a constant stepsize for both noisy and noiseless problems, at a sublinear and linear rate respectively, in the particular case where the Hessians are identical and when the noise is bounded.
+            2. We then show how this estimator can be used as a plug-in within a momentum optimization scheme to improve the dependence of the rate on the condition number.
+            3. As, in practice, the assumption of identical Hessians is never satisfied, leading to an increase in the bias of our estimator, we show how a forgetting scheme giving more weight to more recent examples can lead to state-of-the-art empirical performance on computer vision, natural language, and continuous control tasks.
+            -->
+            <h3 id="bibtex" class="fragile">BibTeX</h3>
+            <div class="sourceCode"><pre class="sourceCode c"><code class="sourceCode c">@misc{arnold2019reducing,
+                title={Reducing the variance in online optimization by transporting
+                       past gradients},
+                author={Sebastien M. R. Arnold,
+                        Pierre-Antoine Manzagol,
+                        Reza Babanezhad,
+                        Ioannis Mitliagkas,
+                        Nicolas Le Roux},
+                year={<span class="dv">2019</span>},
+                archivePrefix={arXiv},
+                primaryClass={cs.LG}
+            }</code></pre></div>
+            
+            <footer class="footer">
+                <p><b>Implicit Gradient Transport</b> - <i></i>, Reducing the variance in online optimization by transporting past gradients.</p>
+            </footer>
+
+        </div> <!-- /container -->
+
+        <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <!-- Include all compiled plugins (below), or include individual files as needed -->
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+        <!--Prism for code highlighting-->
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.5.1/prism.js"></script>
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.5.1/components/prism-python.min.js"></script>
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.5.1/components/prism-c.min.js"></script>
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.5.1/components/prism-java.min.js"></script>
+
+        <!--MathJax-->
+        <script type="text/x-mathjax-config">
+        var delim = '\u0024';
+        MathJax.Hub.Config({
+          tex2jax: {inlineMath: [[delim, delim], ['\\(','\\)']]},
+          jax: ["input/TeX","output/SVG", "output/PreviewHTML"],
+          extensions: ["tex2jax.js","MathMenu.js","MathZoom.js", "fast-preview.js", "AssistiveMML.js", "a11y/accessibility-menu.js"],
+          TeX: {
+            extensions: ["AMSmath.js","AMSsymbols.js","noErrors.js","noUndefined.js"]
+          }
+        });
+        </script>
+        <script src='https://cdn.rawgit.com/mathjax/MathJax/2.7.1/MathJax.js?config=default'></script>
+
+        <!--KaTeX JavaScript-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.6.0/katex.min.js"></script>
+        <!--<script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.6.0/contrib/auto-render.min.js"></script>-->
+
+        <!--Pseudocode.js-->
+        <script src="https://cdn.rawgit.com/seba-1511/cdn/master/pseudocode.js/pseudocode.min.js"></script>
+        <!--<script src="https://rawgit.com/seba-1511/cdn/master/pseudocode.js/pseudocode.min.js"></script>-->
+
+        <!--Viz.js for dot graphs-->
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/viz.js/1.8.0/viz-lite.js"></script>
+
+        <!--Custom scripting-->
+        <script type="text/javascript">
+        // Allows prism to work properly
+        jQuery(document).ready(function() {
+            jQuery('.python').addClass('language-python').removeClass('python');
+            jQuery('.javascript').addClass('language-js').removeClass('javascript');
+            jQuery('.c').addClass('language-c').removeClass('c');
+            jQuery('.java').addClass('language-java').removeClass('java');
+            jQuery('.sourceCode').removeClass('sourceCode');
+            jQuery('table').addClass('table table-striped table-bordered');
+            jQuery('img').addClass('img-responsive');
+            // renderMathInElement(document.body, {
+            //     displayMode: false,
+            //     throwOnError: false,
+            //     errorColor: '#cc0000',
+            // });
+
+            var math = document.getElementsByClassName("math");
+            // MathJax.Hub.Queue(["Typeset", MathJax.Hub, math]);
+            MathJax.Hub.Queue([math, ]);
+            Prism.highlightAll(false);
+
+            // Parse and render graphs using Viz.js
+            var dotElems = document.querySelectorAll('div.vizdot');
+            var i, content, image;
+            for (i=0; i < dotElems.length; i++) {
+                content = dotElems[i].textContent;
+                image = Viz(content, {
+                    format: 'png-image-element',
+                });
+                dotElems[0].innerHTML = "";
+                dotElems[i].appendChild(image);
+            }
+
+            // The following uses pseudocode.js to render algorithms
+            var i, content, container;
+            var pseudocodeElems = document.querySelectorAll('pre.algo code');
+            var parents = document.querySelectorAll('pre.algo');
+            var displayOptions = {
+                indentSize: '1.5em',
+                commentDelimiter: '//',
+                lineNumber: true,
+                lineNumberPunc: ':',
+                noEnd: true,
+                captionCount: 1,
+                throwOnError: false,
+            };
+            for (i=0; i < pseudocodeElems.length; i++) {
+                content = pseudocodeElems[i].textContent;
+                container = document.createElement('div');
+                parents[i].parentNode.insertBefore(container, parents[i]);
+                pseudocode.render(content, container, displayOptions);
+                parents[i].style.display = 'none';
+                parents[i].parentNode.removeChild(parents[i]);
+            }
+        });
+        </script>
+        <script>
+          (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+          (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+          m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+          })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+          ga('create', 'UA-68693545-3', 'auto');
+          ga('send', 'pageview');
+        </script>
+
+    </body>
+</html>
