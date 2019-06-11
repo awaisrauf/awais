@@ -1,6 +1,6 @@
 % Séb Arnold
 %
-% Updated June 1, 2019
+% Updated June 10, 2019
 
 <link rel="stylesheet" href="https://bootswatch.com/cosmo/bootstrap.css" />
 <style>
@@ -46,6 +46,11 @@ I also like skiing ([a lot](http://www.tooski.ch)).
 <br />
 
 ## News
+
+#### Implicit Gradient Transport
+Our preprint on *Reducing the variance in onnline optimization by transporting past gradients* is publicly available. [[ArXiv](https://arxiv.org/abs/1906.03532), [pdf](http://seba1511.net/projects/igt/preprint_neurips19.pdf), [website](http://seba1511.net/projects/igt/), [code](http://github.com/seba-1511/igt.pth)]
+
+<br />
 
 #### East European Summer School
 I will be attending the [East-European Summer School](https://www.eeml.eu/) this summer. Get in touch if you will too!

@@ -1,6 +1,6 @@
 % Papers
 % Séb Arnold
-% May 22, 2018
+% June 10, 2019
 
 <link rel="stylesheet" href="https://bootswatch.com/cosmo/bootstrap.css" />
 <style>
@@ -8,6 +8,22 @@ a, a:hover {
     color: #2AA7E7;
 }
 </style>
+
+**Reducing the variance in online optimization by transporting past gradients**
+
+*S. Arnold, P.-A. Manzagol, R. Babanezhad, I. Mitliagkas, N. Le Roux*, 2019, ArXiv
+
+[[ArXiv](https://arxiv.org/abs/1906.03532), [pdf](http://seba1511.net/projects/igt/preprint_neurips19.pdf), [website](http://seba1511.net/projects/igt/), [code](http://github.com/seba-1511/igt.pth)]
+
+<br />
+
+**Understanding the Variance of Policy Gradient Estimators in Reinforcement Learning**
+
+*S. Arnold\*, J. Preiss\*, C-Y. Wei\*, M. Kloft*, 2019, SoCal Machine Learning Symposium, **Best Poster**
+
+Preprint available soon.
+
+<br />
 
 **Shapechanger: Environments for Transfer Learning**
 
