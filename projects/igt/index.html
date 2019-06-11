@@ -183,7 +183,7 @@
             <!-- Define custom latex macros. -->
             </div>
 
-                        <p>[<a href="">ArXiv</a>, <a href="./preprint_neurips19.pdf">pdf</a>, <a href="https://github.com/seba-1511/igt.pth">code</a>]</p>
+                        <p>[<a href="https://arxiv.org/abs/1906.03532">ArXiv</a>, <a href="./preprint_neurips19.pdf">pdf</a>, <a href="https://github.com/seba-1511/igt.pth">code</a>]</p>
             <h3 id="people">People</h3>
             <ul>
             <li><a href="http://seba1511.net">Séb Arnold</a></li>
@@ -201,15 +201,14 @@
             </p>
             </div>
             <div class="col-md-7" style="text-align:justify;margin-top:25px;font-size:12pt;">
-            <p>Schematic representation of implicit gradient transport: computing the gradient at an offset parameter value provides a correction used to &quot;transport&quot; a gradient estimate in <span class="math inline">\(\theta_{t-1}\)</span>.</p>
+            <p>Schematic representation of implicit gradient transport: computing the gradient at an offset parameter value provides a correction used to “transport” a gradient estimate in <span class="math inline">\(\theta_{t-1}\)</span>.</p>
             </div>
             </div>
             <p>Most stochastic optimization methods use gradients once before discarding them. While variance reduction methods have shown that reusing past gradients can be beneficial when there is a finite number of datapoints, they do not easily extend to the online setting. One issue is the staleness due to using past gradients. We propose to correct this staleness using the idea of <em>implicit gradient transport</em> (IGT) which transforms gradients computed at previous iterates into gradients evaluated at the current iterate without using the Hessian explicitly. In addition to reducing the variance and bias of our updates over time, IGT can be used as a drop-in replacement for the gradient estimate in a number of well-understood methods such as heavy ball or Adam. We show experimentally that it achieves state-of-the-art results on a wide range of architectures and benchmarks. Additionally, the IGT gradient estimator yields the optimal asymptotic convergence rate for online stochastic optimization in the restricted setting where the Hessians of all component functions are equal.</p>
             <p><br /></p>
-            <div class="figure">
-            <img src="./pseudocode.png" alt="Pseudo-code of Heavyball using the IGT gradient estimator." />
-            <p class="caption">Pseudo-code of Heavyball using the IGT gradient estimator.</p>
-            </div>
+            <figure>
+            <img src="./pseudocode.png" alt="Pseudo-code of Heavyball using the IGT gradient estimator." /><figcaption>Pseudo-code of Heavyball using the IGT gradient estimator.</figcaption>
+            </figure>
             <!--
             ### Contributions
             
@@ -218,18 +217,18 @@
             3. As, in practice, the assumption of identical Hessians is never satisfied, leading to an increase in the bias of our estimator, we show how a forgetting scheme giving more weight to more recent examples can lead to state-of-the-art empirical performance on computer vision, natural language, and continuous control tasks.
             -->
             <h3 id="bibtex" class="fragile">BibTeX</h3>
-            <div class="sourceCode"><pre class="sourceCode c"><code class="sourceCode c">@misc{arnold2019reducing,
-                title={Reducing the variance in online optimization by transporting
-                       past gradients},
-                author={Sebastien M. R. Arnold,
-                        Pierre-Antoine Manzagol,
-                        Reza Babanezhad,
-                        Ioannis Mitliagkas,
-                        Nicolas Le Roux},
-                year={<span class="dv">2019</span>},
-                archivePrefix={arXiv},
-                primaryClass={cs.LG}
-            }</code></pre></div>
+            <div class="sourceCode" id="cb1"><pre class="sourceCode c"><code class="sourceCode c"><a class="sourceLine" id="cb1-1" data-line-number="1">@misc{arnold2019reducing,</a>
+            <a class="sourceLine" id="cb1-2" data-line-number="2">    title={Reducing the variance in online optimization by transporting</a>
+            <a class="sourceLine" id="cb1-3" data-line-number="3">           past gradients},</a>
+            <a class="sourceLine" id="cb1-4" data-line-number="4">    author={Sebastien M. R. Arnold,</a>
+            <a class="sourceLine" id="cb1-5" data-line-number="5">            Pierre-Antoine Manzagol,</a>
+            <a class="sourceLine" id="cb1-6" data-line-number="6">            Reza Babanezhad,</a>
+            <a class="sourceLine" id="cb1-7" data-line-number="7">            Ioannis Mitliagkas,</a>
+            <a class="sourceLine" id="cb1-8" data-line-number="8">            Nicolas Le Roux},</a>
+            <a class="sourceLine" id="cb1-9" data-line-number="9">    year={<span class="dv">2019</span>},</a>
+            <a class="sourceLine" id="cb1-10" data-line-number="10">    archivePrefix={arXiv},</a>
+            <a class="sourceLine" id="cb1-11" data-line-number="11">    primaryClass={cs.LG}</a>
+            <a class="sourceLine" id="cb1-12" data-line-number="12">}</a></code></pre></div>
             
             <footer class="footer">
                 <p><b>Implicit Gradient Transport</b> - <i></i>, Reducing the variance in online optimization by transporting past gradients.</p>
