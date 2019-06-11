@@ -2,7 +2,7 @@
 %
 % Reducing the variance in online optimization by transporting past gradients
 
-[[ArXiv](), [pdf](./preprint_neurips19.pdf), [code](https://github.com/seba-1511/igt.pth)]
+[[ArXiv](https://arxiv.org/abs/1906.03532), [pdf](./preprint_neurips19.pdf), [code](https://github.com/seba-1511/igt.pth)]
 
 ### People
 
